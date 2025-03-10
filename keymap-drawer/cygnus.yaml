@@ -41,8 +41,8 @@ layers:
   - {t: Fun, h: to}
   - {t: '''', h: '"', s: '"'}
   - $$mdi:keyboard-space$$
-  - {t: Num, h: magic}
-  - {t: Sym, h: magic}
+  - Num
+  - Sym
   - {t: '$$mdi:backspace-outline$$', type: backspace}
   - {t: \, h: '|', s: '|'}
   Num:
@@ -86,7 +86,7 @@ layers:
   - {t: Qwer, h: to}
   - {t: '''', h: '"', s: '"'}
   - {t: ▽, type: trans}
-  - {t: Qwer, h: to}
+  - {t: Qwer, h: to, type: held}
   - {t: Qwer, h: to}
   - {t: ▽, type: trans}
   - {t: \, h: '|', s: '|'}
@@ -132,7 +132,7 @@ layers:
   - {t: '''', h: '"', s: '"'}
   - {t: ▽, type: trans}
   - {t: Qwer, h: to}
-  - {t: Qwer, h: to}
+  - {t: Qwer, h: to, type: held}
   - {t: ▽, type: trans}
   - {t: \, h: '|', s: '|'}
   Fun:
@@ -264,4 +264,10 @@ combos:
   l: [Qwer, Num, Sym]
 - p: [21, 22]
   k: '>'
+  l: [Qwer, Num, Sym]
+- p: [40, 30]
+  k: {t: Num, h: to}
+  l: [Qwer, Num, Sym]
+- p: [33, 41]
+  k: {t: Sym, h: to}
   l: [Qwer, Num, Sym]
