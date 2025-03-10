@@ -38,11 +38,11 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '?', s: '?'}
-  - {t: Fun, h: to}
+  - {t: Boot, h: to}
   - {t: '''', h: '"', s: '"'}
   - $$mdi:keyboard-space$$
   - Num
-  - Sym
+  - Boot
   - {t: '$$mdi:backspace-outline$$', type: backspace}
   - {t: \, h: '|', s: '|'}
   Num:
@@ -86,8 +86,8 @@ layers:
   - {t: Qwer, h: to}
   - {t: '''', h: '"', s: '"'}
   - {t: ▽, type: trans}
-  - {t: Qwer, h: to, type: held}
-  - {t: Qwer, h: to}
+  - {t: Lock, h: to, type: held}
+  - {t: Lock, h: to}
   - {t: ▽, type: trans}
   - {t: \, h: '|', s: '|'}
   Sym:
@@ -131,10 +131,55 @@ layers:
   - {t: Qwer, h: to}
   - {t: '''', h: '"', s: '"'}
   - {t: ▽, type: trans}
-  - {t: Qwer, h: to}
-  - {t: Qwer, h: to, type: held}
+  - {t: Lock, h: to}
+  - {t: Lock, h: to}
   - {t: ▽, type: trans}
   - {t: \, h: '|', s: '|'}
+  Lock:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Qwer, h: to, type: held}
+  - {t: Qwer, h: to}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   Fun:
   - {type: none}
   - F1
@@ -222,52 +267,46 @@ layers:
   - {type: none}
   - {t: ▽, type: trans}
   - {t: Qwer, h: to}
-  - {t: Qwer, h: to}
+  - {t: Qwer, h: to, type: held}
   - {t: ▽, type: trans}
   - {type: none}
 combos:
 - p: [28, 29]
   k: '['
-  l: [Qwer, Num, Sym]
+  l: [Qwer, Num, Boot]
 - p: [34, 35]
   k: ']'
-  l: [Qwer, Num, Sym]
+  l: [Qwer, Num, Boot]
 - p: [29, 30]
   k: (
-  l: [Qwer, Num, Sym]
+  l: [Qwer, Num, Boot]
 - p: [34, 33]
   k: )
-  l: [Qwer, Num, Sym]
+  l: [Qwer, Num, Boot]
 - p: [30, 31]
   k: '-'
-  l: [Qwer, Num, Sym]
+  l: [Qwer, Num, Boot]
 - p: [33, 32]
   k: '='
-  l: [Qwer, Num, Sym]
+  l: [Qwer, Num, Boot]
 - p: [38, 43]
   k: {t: Boot, h: to}
-  l: [Qwer, Num, Sym]
+  l: [Qwer, Num, Boot]
 - p: [16, 17]
   k: '{'
-  l: [Qwer, Num, Sym]
+  l: [Qwer, Num, Boot]
 - p: [22, 23]
   k: '}'
-  l: [Qwer, Num, Sym]
+  l: [Qwer, Num, Boot]
 - p: [18, 19]
   k: _
-  l: [Qwer, Num, Sym]
+  l: [Qwer, Num, Boot]
 - p: [21, 20]
   k: +
-  l: [Qwer, Num, Sym]
+  l: [Qwer, Num, Boot]
 - p: [17, 18]
   k: <
-  l: [Qwer, Num, Sym]
+  l: [Qwer, Num, Boot]
 - p: [21, 22]
   k: '>'
-  l: [Qwer, Num, Sym]
-- p: [40, 30]
-  k: {t: Num, h: to}
-  l: [Qwer, Num, Sym]
-- p: [33, 41]
-  k: {t: Sym, h: to}
-  l: [Qwer, Num, Sym]
+  l: [Qwer, Num, Boot]
