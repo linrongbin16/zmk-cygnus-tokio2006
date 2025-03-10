@@ -188,33 +188,6 @@
             hold-trigger-key-positions = <15 16 17 18 0 1 2 3 4 5 19 31 30 29 28 27 26 14>;
             hold-trigger-on-release;
         };
-
-        moto: mo_to {
-            compatible = "zmk,behavior-hold-tap";
-            label = "MO_TO";
-            bindings = <&mo>, <&mo>;
-
-            #binding-cells = <2>;
-            tapping-term-ms = <1>;
-        };
-
-        monum: magic_num {
-            compatible = "zmk,behavior-tap-dance";
-            label = "MAGIC_NUM";
-            #binding-cells = <0>;
-            bindings = <&moto 1 1>, <&to 1>;
-
-            tapping-term-ms = <175>;
-        };
-
-        mosym: magic_sym {
-            compatible = "zmk,behavior-tap-dance";
-            label = "MAGIC_SYM";
-            #binding-cells = <0>;
-            bindings = <&moto 5 5>, <&to 5>;
-
-            tapping-term-ms = <175>;
-        };
     };
 
     keymap {
