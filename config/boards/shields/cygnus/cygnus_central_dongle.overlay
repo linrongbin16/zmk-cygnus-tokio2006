@@ -1,0 +1,60 @@
+/*
+ * Copyright (c) 2020 The ZMK Contributors
+ *
+ * SPDX-License-Identifier: MIT
+ */
+#include <zephyr/dt-bindings/input/input-event-codes.h>
+#include <input/processors.dtsi>
+#include <dt-bindings/zmk/input_transform.h>
+#include "cygnus.dtsi"
+
+#define SCROLLER 1
+#define MOUSE 4
+
+/ {
+    chosen {
+        zephyr,display = &oled;
+    };
+};
+
+&default_transform {
+	col-offset = <12>;
+};
+
+&kscan0 {
+    row-gpios
+	= <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+	;
+    col-gpios
+        = <&gpio1 10 GPIO_ACTIVE_HIGH>
+        , <&gpio1 14 GPIO_ACTIVE_HIGH>
+        ;
+};
+
+&uart0 {
+	status = "disabled";
+};
+
+zephyr_udc0: &usbd {
+    compatible = "nordic,nrf-usbd";
+    status = "okay";
+};
+
+
+&pro_micro_i2c {
+	status = "okay";
+	oled: sh1106@3c {
+        compatible = "sinowealth,sh1106";
+        reg = <0x3c>;
+        width = <129>;
+        height = <64>;
+        segment-offset = <1>;
+        page-offset = <0>;
+        display-offset = <0>;
+        multiplex-ratio = <63>;
+        segment-remap;
+        com-invdir;
+        inversion-on;
+        prechargep = <0x22>;
+	};
+};
