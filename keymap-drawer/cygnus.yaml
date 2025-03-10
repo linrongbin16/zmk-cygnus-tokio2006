@@ -176,8 +176,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Qwer, h: to, type: held}
-  - {t: Qwer, h: to, type: held}
+  - {t: Qwer, h: to}
+  - {t: Qwer, h: to}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Fun:
