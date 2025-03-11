@@ -41,8 +41,8 @@ layers:
   - {t: Fun, h: to}
   - {t: '''', h: '"', s: '"'}
   - $$mdi:keyboard-space$$
-  - Num
-  - Sym
+  - {t: Num, h: magic}
+  - {t: Sym, h: magic}
   - {t: '$$mdi:backspace-outline$$', type: backspace}
   - {t: \, h: '|', s: '|'}
   Num:
@@ -86,8 +86,8 @@ layers:
   - {t: Qwer, h: to}
   - {t: '''', h: '"', s: '"'}
   - {t: ▽, type: trans}
-  - {t: Lock, h: to, type: held}
-  - {t: Lock, h: to}
+  - {t: Qwer, h: to}
+  - {t: Qwer, h: to}
   - {t: ▽, type: trans}
   - {t: \, h: '|', s: '|'}
   Sym:
@@ -131,55 +131,10 @@ layers:
   - {t: Qwer, h: to}
   - {t: '''', h: '"', s: '"'}
   - {t: ▽, type: trans}
-  - {t: Lock, h: to}
-  - {t: Lock, h: to, type: held}
+  - {t: Qwer, h: to}
+  - {t: Qwer, h: to}
   - {t: ▽, type: trans}
   - {t: \, h: '|', s: '|'}
-  Lock:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Qwer, h: to}
-  - {t: Qwer, h: to}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   Fun:
   - {type: none}
   - F1

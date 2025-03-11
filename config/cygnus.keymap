@@ -51,6 +51,35 @@
             bindings = <&bootloader>;
             label = "BOOTLOAD_MACRO";
         };
+
+        mo1layer_macro: mo1layer_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&mo 1>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&mo 1>;
+
+            label = "MO1LAYER_LAYER";
+            tap-ms = <0>;
+        };
+
+        mo2layer_macro: mo2layer_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&mo 2>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&mo 2>;
+
+            label = "MO2LAYER_MACRO";
+            wait-ms = <0>;
+            tap-ms = <0>;
+        };
     };
 
     combos {
@@ -99,7 +128,7 @@
         };
 
         to_flash {
-            bindings = <&to 5>;
+            bindings = <&to 4>;
             key-positions = <38 43>;
             timeout-ms = <42>;
             require-prior-idle-ms = <125>;
@@ -188,6 +217,24 @@
             hold-trigger-key-positions = <15 16 17 18 0 1 2 3 4 5 19 31 30 29 28 27 26 14>;
             hold-trigger-on-release;
         };
+
+        monum: mo_num_layer {
+            compatible = "zmk,behavior-tap-dance";
+            label = "MO_NUM_LAYER";
+            #binding-cells = <0>;
+            bindings = <&mo1layer_macro>, <&to 1>;
+
+            tapping-term-ms = <175>;
+        };
+
+        mosym: mo_sym_layer {
+            compatible = "zmk,behavior-tap-dance";
+            label = "MO_SYM_LAYER";
+            #binding-cells = <0>;
+            bindings = <&mo2layer_macro>, <&to 2>;
+
+            tapping-term-ms = <175>;
+        };
     };
 
     keymap {
@@ -195,10 +242,10 @@
 
         Qwer {
             bindings = <
-&kp TAB       &kp Q            &kp W            &kp E                           &kp R              &kp T  &kp Y  &kp U               &kp I                 &kp O             &kp P                &none      &none  &none
-&kp ESC       &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D             &hml LEFT_SHIFT F  &kp G  &kp H  &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L  &hmr RIGHT_ALT SEMI  &kp ENTER
-&kp CAPSLOCK  &kp Z            &kp X            &kp C                           &kp V              &kp B  &kp N  &kp M               &kp COMMA             &kp DOT           &as QUESTION SLASH   &to 4
-                                                &as DOUBLE_QUOTES SINGLE_QUOTE  &kp SPACE          &mo 1  &mo 2  &kp BACKSPACE       &as PIPE BACKSLASH
+&kp TAB       &kp Q            &kp W            &kp E                           &kp R              &kp T   &kp Y   &kp U               &kp I                 &kp O             &kp P                &none      &none  &none
+&kp ESC       &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D             &hml LEFT_SHIFT F  &kp G   &kp H   &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L  &hmr RIGHT_ALT SEMI  &kp ENTER
+&kp CAPSLOCK  &kp Z            &kp X            &kp C                           &kp V              &kp B   &kp N   &kp M               &kp COMMA             &kp DOT           &as QUESTION SLASH   &to 3
+                                                &as DOUBLE_QUOTES SINGLE_QUOTE  &kp SPACE          &monum  &mosym  &kp BACKSPACE       &as PIPE BACKSLASH
             >;
 
             label = "Qwer";
@@ -209,7 +256,7 @@
 &kp GRAVE  &kp NUMBER_1  &kp NUMBER_2        &kp NUMBER_3                    &kp NUMBER_4         &kp NUMBER_5   &kp NUMBER_6    &kp NUMBER_7     &kp NUMBER_8        &kp NUMBER_9   &kp NUMBER_0   &none      &none  &none
 &kp ESC    &kp LEFT_ALT  &hml LEFT_GUI HOME  &hml LEFT_CONTROL UP_ARROW      &hml LEFT_SHIFT END  &kp PAGE_UP    &msc SCRL_UP    &kp RIGHT_SHIFT  &kp RIGHT_CONTROL   &kp RIGHT_GUI  &kp RIGHT_ALT  &kp ENTER
 &none      &none         &kp LEFT_ARROW      &kp DOWN_ARROW                  &kp RIGHT_ARROW      &kp PAGE_DOWN  &msc SCRL_DOWN  &none            &none               &none          &none          &to 0
-                                             &as DOUBLE_QUOTES SINGLE_QUOTE  &trans               &to 3          &to 3           &trans           &as PIPE BACKSLASH
+                                             &as DOUBLE_QUOTES SINGLE_QUOTE  &trans               &to 0          &to 0           &trans           &as PIPE BACKSLASH
             >;
 
             label = "Num";
@@ -220,21 +267,10 @@
 &kp TILDE  &kp EXCLAMATION  &kp AT_SIGN         &kp HASH                        &kp DOLLAR           &kp PERCENT    &kp CARET       &kp AMPERSAND    &kp STAR            &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none      &none  &none
 &kp ESC    &kp LEFT_ALT     &hml LEFT_GUI HOME  &hml LEFT_CONTROL UP_ARROW      &hml LEFT_SHIFT END  &kp PAGE_UP    &msc SCRL_UP    &kp RIGHT_SHIFT  &kp RIGHT_CONTROL   &kp RIGHT_GUI         &kp RIGHT_ALT          &kp ENTER
 &none      &none            &kp LEFT_ARROW      &kp DOWN_ARROW                  &kp RIGHT_ARROW      &kp PAGE_DOWN  &msc SCRL_DOWN  &none            &none               &none                 &none                  &to 0
-                                                &as DOUBLE_QUOTES SINGLE_QUOTE  &trans               &to 3          &to 3           &trans           &as PIPE BACKSLASH
+                                                &as DOUBLE_QUOTES SINGLE_QUOTE  &trans               &to 0          &to 0           &trans           &as PIPE BACKSLASH
             >;
 
             label = "Sym";
-        };
-
-        Lock {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &to 0   &to 0   &trans  &trans
-            >;
-
-            label = "Lock";
         };
 
         Fun {
