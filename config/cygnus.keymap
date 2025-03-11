@@ -51,6 +51,33 @@
             bindings = <&bootloader>;
             label = "BOOTLOAD_MACRO";
         };
+
+        mo1layer_macro: mo_layer {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&mo 1>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&mo 1>;
+
+            label = "MO_LAYER";
+            tap-ms = <0>;
+        };
+
+        mo2layer_macro: mo2layer_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&mo 2>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&mo 2>;
+
+            label = "MO2LAYER_MACRO";
+        };
     };
 
     combos {
@@ -188,6 +215,24 @@
             hold-trigger-key-positions = <15 16 17 18 0 1 2 3 4 5 19 31 30 29 28 27 26 14>;
             hold-trigger-on-release;
         };
+
+        monum: mo_num_layer {
+            compatible = "zmk,behavior-tap-dance";
+            label = "MO_NUM_LAYER";
+            #binding-cells = <0>;
+            bindings = <&mo1layer_macro>, <&to 1>;
+
+            tapping-term-ms = <175>;
+        };
+
+        mosym: mo_sym_layer {
+            compatible = "zmk,behavior-tap-dance";
+            label = "MO_SYM_LAYER";
+            #binding-cells = <0>;
+            bindings = <&mo2layer_macro>, <&to 2>;
+
+            tapping-term-ms = <175>;
+        };
     };
 
     keymap {
@@ -195,10 +240,10 @@
 
         Qwer {
             bindings = <
-&kp TAB       &kp Q            &kp W            &kp E                           &kp R              &kp T  &kp Y  &kp U               &kp I                 &kp O             &kp P                &none      &none  &none
-&kp ESC       &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D             &hml LEFT_SHIFT F  &kp G  &kp H  &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L  &hmr RIGHT_ALT SEMI  &kp ENTER
-&kp CAPSLOCK  &kp Z            &kp X            &kp C                           &kp V              &kp B  &kp N  &kp M               &kp COMMA             &kp DOT           &as QUESTION SLASH   &to 4
-                                                &as DOUBLE_QUOTES SINGLE_QUOTE  &kp SPACE          &mo 1  &mo 2  &kp BACKSPACE       &as PIPE BACKSLASH
+&kp TAB       &kp Q            &kp W            &kp E                           &kp R              &kp T   &kp Y   &kp U               &kp I                 &kp O             &kp P                &none      &none  &none
+&kp ESC       &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D             &hml LEFT_SHIFT F  &kp G   &kp H   &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L  &hmr RIGHT_ALT SEMI  &kp ENTER
+&kp CAPSLOCK  &kp Z            &kp X            &kp C                           &kp V              &kp B   &kp N   &kp M               &kp COMMA             &kp DOT           &as QUESTION SLASH   &to 4
+                                                &as DOUBLE_QUOTES SINGLE_QUOTE  &kp SPACE          &monum  &mosym  &kp BACKSPACE       &as PIPE BACKSLASH
             >;
 
             label = "Qwer";
