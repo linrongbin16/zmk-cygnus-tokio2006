@@ -52,7 +52,7 @@
             label = "BOOTLOAD_MACRO";
         };
 
-        mo1layer_macro: mo_layer {
+        mo1layer_macro: mo1layer_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
@@ -62,8 +62,9 @@
                 <&macro_release>,
                 <&mo 1>;
 
-            label = "MO_LAYER";
-            tap-ms = <0>;
+            label = "MO1LAYER_LAYER";
+            tap-ms = <1>;
+            wait-ms = <1>;
         };
 
         mo2layer_macro: mo2layer_macro {
@@ -77,6 +78,8 @@
                 <&mo 2>;
 
             label = "MO2LAYER_MACRO";
+            wait-ms = <1>;
+            tap-ms = <1>;
         };
     };
 
