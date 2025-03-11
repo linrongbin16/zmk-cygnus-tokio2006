@@ -86,8 +86,8 @@ layers:
   - {t: Qwer, h: to}
   - {t: '''', h: '"', s: '"'}
   - {t: ▽, type: trans}
-  - {t: Lock, h: to}
-  - {t: Lock, h: to}
+  - {t: Qwer, h: to}
+  - {t: Qwer, h: to}
   - {t: ▽, type: trans}
   - {t: \, h: '|', s: '|'}
   Sym:
@@ -131,55 +131,10 @@ layers:
   - {t: Qwer, h: to}
   - {t: '''', h: '"', s: '"'}
   - {t: ▽, type: trans}
-  - {t: Lock, h: to}
-  - {t: Lock, h: to}
+  - {t: Qwer, h: to}
+  - {t: Qwer, h: to}
   - {t: ▽, type: trans}
   - {t: \, h: '|', s: '|'}
-  Lock:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Qwer, h: to}
-  - {t: Qwer, h: to}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   Fun:
   - {type: none}
   - F1
