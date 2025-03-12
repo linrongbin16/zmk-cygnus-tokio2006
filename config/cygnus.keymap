@@ -84,39 +84,11 @@
     combos {
         compatible = "zmk,combos";
 
-        minus {
-            bindings = <&kp MINUS>;
-            key-positions = <30 31>;
-            timeout-ms = <42>;
-            require-prior-idle-ms = <100>;
-        };
-
-        equal {
-            bindings = <&kp EQUAL>;
-            key-positions = <33 32>;
-            timeout-ms = <42>;
-            require-prior-idle-ms = <100>;
-        };
-
         to_flash {
             bindings = <&to 4>;
             key-positions = <38 43>;
             timeout-ms = <42>;
             require-prior-idle-ms = <125>;
-        };
-
-        underscore {
-            bindings = <&kp UNDERSCORE>;
-            key-positions = <18 19>;
-            timeout-ms = <42>;
-            require-prior-idle-ms = <100>;
-        };
-
-        plus {
-            bindings = <&kp PLUS>;
-            key-positions = <21 20>;
-            timeout-ms = <42>;
-            require-prior-idle-ms = <100>;
         };
     };
 
