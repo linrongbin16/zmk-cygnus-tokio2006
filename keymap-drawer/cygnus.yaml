@@ -38,57 +38,12 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, h: '?', s: '?'}
-  - {t: Fun, h: to}
+  - {t: Boot, h: to}
   - {t: '''', h: '"', s: '"'}
   - $$mdi:keyboard-space$$
   - {t: Num, h: magic}
   - {t: Sym, h: magic}
   - {t: '$$mdi:backspace-outline$$', type: backspace}
-  - {t: \, h: '|', s: '|'}
-  Num:
-  - {t: '`', s: '~'}
-  - {type: none}
-  - $$mdi:arrow-left$$
-  - $$mdi:arrow-up$$
-  - $$mdi:arrow-right$$
-  - {type: none}
-  - {type: none}
-  - HOME
-  - PgUp
-  - END
-  - {t: '0', s: )}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - ESC
-  - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: ^}
-  - {t: '4', h: '$$mdi:apple-keyboard-command$$', s: $}
-  - {t: '0', h: '$$mdi:apple-keyboard-control$$', s: )}
-  - {t: '2', h: '$$mdi:apple-keyboard-shift$$', s: '@'}
-  - PgUp
-  - $$mdi:mouse-move-up$$
-  - {t: '3', h: '$$mdi:apple-keyboard-shift$$', s: '#'}
-  - {t: '1', h: '$$mdi:apple-keyboard-control$$', s: '!'}
-  - {t: '5', h: '$$mdi:apple-keyboard-command$$', s: '%'}
-  - {t: '7', h: '$$mdi:apple-keyboard-option$$', s: '&'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - $$mdi:arrow-down$$
-  - {t: '8', s: '*'}
-  - PgDn
-  - $$mdi:mouse-move-down$$
-  - {t: '9', s: (}
-  - PgDn
-  - {type: none}
-  - {type: none}
-  - {t: Qwer, h: to}
-  - {t: '''', h: '"', s: '"'}
-  - {t: ▽, type: trans}
-  - {t: Qwer, h: to}
-  - {t: Qwer, h: to}
-  - {t: ▽, type: trans}
   - {t: \, h: '|', s: '|'}
   Sym:
   - '~'
@@ -112,8 +67,8 @@ layers:
   - {t: '@', h: '$$mdi:apple-keyboard-shift$$'}
   - PgUp
   - $$mdi:mouse-move-up$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: '#', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '!', h: '$$mdi:apple-keyboard-control$$'}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -125,6 +80,51 @@ layers:
   - PgDn
   - $$mdi:mouse-move-down$$
   - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {t: Qwer, h: to}
+  - {t: '''', h: '"', s: '"'}
+  - {t: ▽, type: trans}
+  - {t: Qwer, h: to}
+  - {t: Qwer, h: to}
+  - {t: ▽, type: trans}
+  - {t: \, h: '|', s: '|'}
+  Num:
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - +
+  - '-'
+  - '*'
+  - /
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - ESC
+  - {t: '6', h: '$$mdi:apple-keyboard-option$$', s: ^}
+  - {t: '4', h: '$$mdi:apple-keyboard-command$$', s: $}
+  - {t: '0', h: '$$mdi:apple-keyboard-control$$', s: )}
+  - {t: '2', h: '$$mdi:apple-keyboard-shift$$', s: '@'}
+  - {type: none}
+  - {type: none}
+  - {t: '3', h: '$$mdi:apple-keyboard-shift$$', s: '#'}
+  - {t: '1', h: '$$mdi:apple-keyboard-control$$', s: '!'}
+  - {t: '5', h: '$$mdi:apple-keyboard-command$$', s: '%'}
+  - {t: '7', h: '$$mdi:apple-keyboard-option$$', s: '&'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {t: '8', s: '*'}
+  - KP COMMA
+  - .
+  - {t: '9', s: (}
   - {type: none}
   - {type: none}
   - {type: none}
