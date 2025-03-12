@@ -52,10 +52,10 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - +
-  - '}'
-  - (
-  - )
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -78,10 +78,10 @@ layers:
   - {t: ']', s: '}'}
   - {t: '-', s: _}
   - {type: none}
+  - {type: none}
   - {t: '=', s: +}
-  - {t: ']', s: '}'}
-  - <
-  - '>'
+  - (
+  - )
   - {type: none}
   - {t: Qwer, h: to}
   - {t: '''', h: '"', s: '"'}
@@ -96,11 +96,11 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - _
-  - '{'
-  - '}'
-  - (
-  - )
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -123,8 +123,8 @@ layers:
   - '}'
   - _
   - {type: none}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {type: none}
+  - +
   - <
   - '>'
   - {type: none}
