@@ -50,6 +50,38 @@
             bindings = <&bootloader>;
             label = "BOOTLOAD_MACRO";
         };
+
+        less_equal_macro: less_equal_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LESS_THAN &kp EQUAL>;
+
+            label = "LESS_EQUAL_MACRO";
+        };
+
+        greater_equal_macro: greater_equal_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press>, <&kp GREATER_THAN &kp EQUAL>;
+
+            label = "GREATER_EQUAL_MACRO";
+        };
+
+        left_arrow_macro: left_arrow_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LESS_THAN &kp MINUS>;
+
+            label = "LEFT_ARROW_MACRO";
+        };
+
+        right_arrow_macro: right_arrow_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp MINUS &kp GREATER_THAN>;
+
+            label = "RIGHT_ARROW_MACRO";
+        };
     };
 
     combos {
@@ -131,7 +163,7 @@
 
         Num {
             bindings = <
-&kp GRAVE  &none                   &none                   &none                           &none                     &none         &none         &none                      &none                        &none                    &none                    &none      &none  &none
+&kp GRAVE  &none                   &none                   &left_arrow_macro               &right_arrow_macro        &none         &none         &less_equal_macro          &greater_equal_macro         &none                    &none                    &none      &none  &none
 &kp ESC    &hml LEFT_ALT NUMBER_1  &hml LEFT_GUI NUMBER_2  &hml LEFT_CONTROL NUMBER_3      &hml LEFT_SHIFT NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &hmr RIGHT_SHIFT NUMBER_7  &hmr RIGHT_CONTROL NUMBER_8  &hmr RIGHT_GUI NUMBER_9  &hmr RIGHT_ALT NUMBER_0  &kp ENTER
 &none      &none                   &kp LEFT_BRACKET        &kp RIGHT_BRACKET               &kp MINUS                 &none         &none         &kp EQUAL                  &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS    &none                    &to 0
                                                            &as DOUBLE_QUOTES SINGLE_QUOTE  &trans                    &to 0         &to 0         &trans                     &as PIPE BACKSLASH
