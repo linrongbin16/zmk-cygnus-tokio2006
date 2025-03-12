@@ -226,13 +226,5 @@ layers:
   - {t: ▽, type: trans}
   - {type: none}
 combos:
-- p: [30, 31]
-  k: '-'
-- p: [33, 32]
-  k: '='
 - p: [38, 43]
   k: {t: Boot, h: to}
-- p: [18, 19]
-  k: _
-- p: [21, 20]
-  k: +
