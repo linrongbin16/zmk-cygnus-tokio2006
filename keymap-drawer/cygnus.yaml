@@ -47,41 +47,41 @@ layers:
   - {t: \, h: '|', s: '|'}
   Num:
   - {t: '`', s: '~'}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
+  - {type: none}
+  - HOME
+  - $$mdi:arrow-up$$
+  - END
+  - '{'
+  - '}'
+  - <
+  - PgUp
+  - '>'
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
   - ESC
-  - $$mdi:apple-keyboard-option$$
-  - {t: HOME, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:arrow-up$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: END, h: '$$mdi:apple-keyboard-shift$$'}
-  - PgUp
-  - $$mdi:mouse-move-up$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
+  - {t: '1', h: '$$mdi:apple-keyboard-option$$', s: '!'}
+  - {t: '2', h: '$$mdi:apple-keyboard-command$$', s: '@'}
+  - {t: '3', h: '$$mdi:apple-keyboard-control$$', s: '#'}
+  - {t: '4', h: '$$mdi:apple-keyboard-shift$$', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: '7', h: '$$mdi:apple-keyboard-shift$$', s: '&'}
+  - {t: '8', h: '$$mdi:apple-keyboard-control$$', s: '*'}
+  - {t: '9', h: '$$mdi:apple-keyboard-command$$', s: (}
+  - {t: '0', h: '$$mdi:apple-keyboard-option$$', s: )}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
   - {type: none}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - (
   - PgDn
-  - $$mdi:mouse-move-down$$
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - )
   - {type: none}
   - {t: Qwer, h: to}
   - {t: '''', h: '"', s: '"'}
@@ -92,41 +92,41 @@ layers:
   - {t: \, h: '|', s: '|'}
   Sym:
   - '~'
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
+  - {type: none}
+  - HOME
+  - $$mdi:arrow-up$$
+  - END
+  - '{'
+  - '}'
+  - <
+  - PgUp
+  - '>'
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
   - ESC
-  - $$mdi:apple-keyboard-option$$
-  - {t: HOME, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '$$mdi:arrow-up$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: END, h: '$$mdi:apple-keyboard-shift$$'}
-  - PgUp
-  - $$mdi:mouse-move-up$$
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-option$$
+  - {t: '!', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '@', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '#', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: $, h: '$$mdi:apple-keyboard-shift$$'}
+  - '%'
+  - ^
+  - {t: '&', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '*', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: (, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: ), h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
   - {type: none}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - (
   - PgDn
-  - $$mdi:mouse-move-down$$
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - )
   - {type: none}
   - {t: Qwer, h: to}
   - {t: '''', h: '"', s: '"'}
