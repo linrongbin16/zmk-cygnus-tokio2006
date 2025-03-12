@@ -41,18 +41,18 @@ layers:
   - {t: Fun, h: to}
   - {t: '''', h: '"', s: '"'}
   - $$mdi:keyboard-space$$
-  - {t: Num, h: magic}
-  - {t: Sym, h: magic}
+  - {t: Num, h: Nav}
+  - {t: Sym, h: Nav}
   - {t: '$$mdi:backspace-outline$$', type: backspace}
   - {t: \, h: '|', s: '|'}
   Num:
   - {t: '`', s: '~'}
-  - PgUp
-  - HOME
-  - $$mdi:arrow-up$$
-  - END
-  - {t: '-', s: _}
-  - '{'
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - +
   - '}'
   - (
   - )
@@ -73,12 +73,12 @@ layers:
   - {t: '0', h: '$$mdi:apple-keyboard-option$$', s: )}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
-  - PgDn
-  - $$mdi:arrow-left$$
-  - $$mdi:arrow-down$$
-  - $$mdi:arrow-right$$
-  - {t: '=', s: +}
+  - {type: none}
   - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: '-', s: _}
+  - {type: none}
+  - {t: '=', s: +}
   - {t: ']', s: '}'}
   - <
   - '>'
@@ -92,10 +92,10 @@ layers:
   - {t: \, h: '|', s: '|'}
   Sym:
   - '~'
-  - PgUp
-  - HOME
-  - $$mdi:arrow-up$$
-  - END
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - _
   - '{'
   - '}'
@@ -118,11 +118,11 @@ layers:
   - {t: ), h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
-  - PgDn
-  - $$mdi:arrow-left$$
-  - $$mdi:arrow-down$$
-  - $$mdi:arrow-right$$
-  - +
+  - {type: none}
+  - '{'
+  - '}'
+  - _
+  - {type: none}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - <
@@ -263,11 +263,11 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
+  - {t: Qwer, h: to}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - {t: Qwer, h: to, type: held}
+  - {t: Qwer, h: to, type: held alternate}
   - {type: none}
   - {type: none}
 combos:
