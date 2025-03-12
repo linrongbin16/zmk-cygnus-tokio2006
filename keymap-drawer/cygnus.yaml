@@ -35,8 +35,8 @@ layers:
   - B
   - N
   - M
-  - {t: ',', s: <}
-  - {t: ., s: '>'}
+  - {t: ',', h: <, s: <}
+  - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
   - {t: Fun, h: to}
   - {t: '''', h: '"', s: '"'}
@@ -53,9 +53,9 @@ layers:
   - END
   - '{'
   - '}'
-  - <
   - {t: '-', s: _}
-  - '>'
+  - (
+  - )
   - {type: none}
   - {type: none}
   - {type: none}
@@ -79,9 +79,9 @@ layers:
   - $$mdi:arrow-right$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - (
   - {t: '=', s: +}
-  - )
+  - <
+  - '>'
   - {type: none}
   - {t: Qwer, h: to}
   - {t: '''', h: '"', s: '"'}
@@ -98,9 +98,9 @@ layers:
   - END
   - '{'
   - '}'
-  - <
   - _
-  - '>'
+  - (
+  - )
   - {type: none}
   - {type: none}
   - {type: none}
@@ -124,9 +124,9 @@ layers:
   - $$mdi:arrow-right$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - (
   - +
-  - )
+  - <
+  - '>'
   - {type: none}
   - {t: Qwer, h: to}
   - {t: '''', h: '"', s: '"'}
