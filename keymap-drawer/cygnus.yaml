@@ -49,12 +49,12 @@ layers:
   - {t: '`', s: '~'}
   - {type: none}
   - {type: none}
-  - '&left_arrow_macro'
-  - '&right_arrow_macro'
+  - <-
+  - ->
   - {type: none}
   - {type: none}
-  - '&less_equal_macro'
-  - '&greater_equal_macro'
+  - <=
+  - '>='
   - {type: none}
   - {type: none}
   - {type: none}
