@@ -167,10 +167,10 @@
 
         Qwer {
             bindings = <
-&kp TAB       &kp Q            &kp W            &kp E                           &kp R              &kp T   &kp Y   &kp U               &kp I                 &kp O                 &kp P                &none      &none  &none
-&kp ESC       &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D             &hml LEFT_SHIFT F  &kp G   &kp H   &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L      &hmr RIGHT_ALT SEMI  &kp ENTER
-&kp CAPSLOCK  &kp Z            &kp X            &kp C                           &kp V              &kp B   &kp N   &kp M               &as LESS_THAN COMMA   &as GREATER_THAN DOT  &as QUESTION SLASH   &to 3
-                                                &as DOUBLE_QUOTES SINGLE_QUOTE  &kp SPACE          &monum  &mosym  &kp BACKSPACE       &as PIPE BACKSLASH
+&kp TAB       &kp Q            &kp W            &kp E                           &kp R              &kp T      &kp Y      &kp U               &kp I                 &kp O                 &kp P                &none      &none  &none
+&kp ESC       &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D             &hml LEFT_SHIFT F  &kp G      &kp H      &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L      &hmr RIGHT_ALT SEMI  &kp ENTER
+&kp CAPSLOCK  &kp Z            &kp X            &kp C                           &kp V              &kp B      &kp N      &kp M               &as LESS_THAN COMMA   &as GREATER_THAN DOT  &as QUESTION SLASH   &to 3
+                                                &as DOUBLE_QUOTES SINGLE_QUOTE  &kp SPACE          &moto 5 1  &moto 5 2  &kp BACKSPACE       &as PIPE BACKSLASH
             >;
 
             label = "Qwer";
@@ -178,10 +178,10 @@
 
         Num {
             bindings = <
-&kp GRAVE  &kp PAGE_UP             &kp HOME                &kp UP_ARROW                    &kp END                   &kp MINUS     &kp LEFT_BRACE    &kp RIGHT_BRACE            &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS    &none                    &none      &none  &none
-&kp ESC    &hml LEFT_ALT NUMBER_1  &hml LEFT_GUI NUMBER_2  &hml LEFT_CONTROL NUMBER_3      &hml LEFT_SHIFT NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &hmr RIGHT_SHIFT NUMBER_7  &hmr RIGHT_CONTROL NUMBER_8  &hmr RIGHT_GUI NUMBER_9  &hmr RIGHT_ALT NUMBER_0  &kp ENTER
-&none      &kp PAGE_DOWN           &kp LEFT_ARROW          &kp DOWN_ARROW                  &kp RIGHT_ARROW           &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET          &kp LESS_THAN                &kp GREATER_THAN         &none                    &to 0
-                                                           &as DOUBLE_QUOTES SINGLE_QUOTE  &trans                    &to 0         &to 0             &trans                     &as PIPE BACKSLASH
+&kp GRAVE  &none                   &none                   &none                           &none                     &none         &kp PLUS      &kp RIGHT_BRACE            &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS    &none                    &none      &none  &none
+&kp ESC    &hml LEFT_ALT NUMBER_1  &hml LEFT_GUI NUMBER_2  &hml LEFT_CONTROL NUMBER_3      &hml LEFT_SHIFT NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &hmr RIGHT_SHIFT NUMBER_7  &hmr RIGHT_CONTROL NUMBER_8  &hmr RIGHT_GUI NUMBER_9  &hmr RIGHT_ALT NUMBER_0  &kp ENTER
+&none      &none                   &kp LEFT_BRACKET        &kp RIGHT_BRACKET               &kp MINUS                 &none         &kp EQUAL     &kp RIGHT_BRACKET          &kp LESS_THAN                &kp GREATER_THAN         &none                    &to 0
+                                                           &as DOUBLE_QUOTES SINGLE_QUOTE  &trans                    &to 0         &to 0         &trans                     &as PIPE BACKSLASH
             >;
 
             label = "Num";
@@ -189,9 +189,9 @@
 
         Sym {
             bindings = <
-&kp TILDE  &kp PAGE_UP                &kp HOME               &kp UP_ARROW                    &kp END                 &kp UNDERSCORE  &kp LEFT_BRACE    &kp RIGHT_BRACE             &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS            &none                             &none      &none  &none
+&kp TILDE  &none                      &none                  &none                           &none                   &kp UNDERSCORE  &kp LEFT_BRACE    &kp RIGHT_BRACE             &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS            &none                             &none      &none  &none
 &kp ESC    &hml LEFT_ALT EXCLAMATION  &hml LEFT_GUI AT_SIGN  &hml LEFT_CONTROL HASH          &hml LEFT_SHIFT DOLLAR  &kp PERCENT     &kp CARET         &hmr RIGHT_SHIFT AMPERSAND  &hmr RIGHT_CONTROL ASTERISK  &hmr RIGHT_GUI LEFT_PARENTHESIS  &hmr RIGHT_ALT RIGHT_PARENTHESIS  &kp ENTER
-&none      &kp PAGE_DOWN              &kp LEFT_ARROW         &kp DOWN_ARROW                  &kp RIGHT_ARROW         &kp PLUS        &kp LEFT_BRACKET  &kp RIGHT_BRACKET           &kp LESS_THAN                &kp GREATER_THAN                 &none                             &to 0
+&none      &none                      &kp LEFT_BRACE         &kp RIGHT_BRACE                 &kp UNDERSCORE          &none           &kp LEFT_BRACKET  &kp RIGHT_BRACKET           &kp LESS_THAN                &kp GREATER_THAN                 &none                             &to 0
                                                              &as DOUBLE_QUOTES SINGLE_QUOTE  &trans                  &to 0           &to 0             &trans                      &as PIPE BACKSLASH
             >;
 
@@ -224,8 +224,8 @@
             bindings = <
 &none  &none  &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &none  &none           &none           &none         &none            &none  &none  &none
 &none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none
-&none  &none  &none           &none           &none            &none          &none  &none           &none           &none         &none            &none
-                              &none           &none            &none          &none  &none           &none
+&none  &none  &none           &none           &none            &none          &none  &none           &none           &none         &none            &to 0
+                              &none           &none            &to 0          &to 0  &none           &none
             >;
 
             label = "Nav";
