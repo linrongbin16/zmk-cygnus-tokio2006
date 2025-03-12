@@ -51,9 +51,9 @@ layers:
   - HOME
   - $$mdi:arrow-up$$
   - END
+  - {t: '-', s: _}
   - '{'
   - '}'
-  - {t: '-', s: _}
   - (
   - )
   - {type: none}
@@ -77,9 +77,9 @@ layers:
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
+  - {t: '=', s: +}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '=', s: +}
   - <
   - '>'
   - {type: none}
@@ -96,9 +96,9 @@ layers:
   - HOME
   - $$mdi:arrow-up$$
   - END
+  - _
   - '{'
   - '}'
-  - _
   - (
   - )
   - {type: none}
@@ -122,9 +122,9 @@ layers:
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
+  - +
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - +
   - <
   - '>'
   - {type: none}
