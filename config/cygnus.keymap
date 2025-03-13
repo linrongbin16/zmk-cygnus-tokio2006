@@ -229,9 +229,9 @@
 
         Sym {
             bindings = <
-&kp TILDE  &kp PAGE_UP                &kp HOME               &kp UP_ARROW            &kp END                 &kp UNDERSCORE        &kp PLUS        &tap2_macro LESS_THAN EQUAL  &tap2_macro GREATER_THAN EQUAL  &tap2_macro EXCLAMATION EQUAL    &tap2_macro LESS_THAN MINUS       &tap2_macro MINUS GREATER_THAN  &none  &none
+&kp TILDE  &kp PAGE_UP                &kp HOME               &kp UP_ARROW            &kp END                 &kp UNDERSCORE        &kp PLUS        &none                        &tap2_macro LESS_THAN MINUS     &tap2_macro MINUS GREATER_THAN   &none                             &none      &none  &none
 &kp ESC    &hml LEFT_ALT EXCLAMATION  &hml LEFT_GUI AT_SIGN  &hml LEFT_CONTROL HASH  &hml LEFT_SHIFT DOLLAR  &kp PERCENT           &kp CARET       &hmr RIGHT_SHIFT AMPERSAND   &hmr RIGHT_CONTROL ASTERISK     &hmr RIGHT_GUI LEFT_PARENTHESIS  &hmr RIGHT_ALT RIGHT_PARENTHESIS  &kp ENTER
-&none      &kp PAGE_DOWN              &kp LEFT_ARROW         &kp DOWN_ARROW          &kp RIGHT_ARROW         &as UNDERSCORE MINUS  &as PLUS EQUAL  &none                        &kp LESS_THAN                   &kp GREATER_THAN                 &none                             &to 0
+&none      &kp PAGE_DOWN              &kp LEFT_ARROW         &kp DOWN_ARROW          &kp RIGHT_ARROW         &as UNDERSCORE MINUS  &as PLUS EQUAL  &tap2_macro LESS_THAN EQUAL  &tap2_macro GREATER_THAN EQUAL  &tap2_macro EXCLAMATION EQUAL    &none                             &to 0
                                                              &none                   &trans                  &to 0                 &to 0           &trans                       &none
             >;
 
