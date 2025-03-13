@@ -178,7 +178,30 @@ parse_config:
     "&mosym":
       tap: "Sym"
       hold: "magic"
-      
+    "&mo1":
+      tap: "Num"
+      hold: "magic"
+    "&mo2":
+      tap: "Sym"
+      hold: "magic"
+    "&mo3":
+      tap: "Fun"
+      hold: "magic"
+    "&mo4":
+      tap: "Nav"
+      hold: "magic"
+    "&less_equal_macro":
+      tap: "<="
+    "&greater_equal_macro":
+      tap: ">="
+    "&not_equal_macro":
+      tap: "!="
+    "&left_arrow_macro":
+      tap: "<-"
+    "&right_arrow_macro":
+      tap: "->"
+    "&bold_right_arrow_macro":
+      tap: "=>"
 
     # Mouse
     "&mkp LCLK":

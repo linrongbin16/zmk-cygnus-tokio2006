@@ -38,24 +38,24 @@ layers:
   - {t: ',', h: <, s: <}
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
-  - {t: Fun, h: to}
-  - {t: '''', h: '"', s: '"'}
+  - {type: none}
+  - {t: Nav, h: magic}
   - $$mdi:keyboard-space$$
   - {t: Num, h: magic}
   - {t: Sym, h: magic}
   - {t: '$$mdi:backspace-outline$$', type: backspace}
-  - {t: \, h: '|', s: '|'}
+  - {t: Fun, h: to}
   Num:
   - {t: '`', s: '~'}
-  - PgUp
-  - HOME
-  - $$mdi:arrow-up$$
-  - END
-  - {t: '-', s: _}
-  - '{'
-  - '}'
-  - (
-  - )
+  - {type: none}
+  - {type: none}
+  - <-
+  - ->
+  - {type: none}
+  - {type: none}
+  - <=
+  - '>='
+  - '!='
   - {type: none}
   - {type: none}
   - {type: none}
@@ -73,34 +73,34 @@ layers:
   - {t: '0', h: '$$mdi:apple-keyboard-option$$', s: )}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
-  - PgDn
-  - $$mdi:arrow-left$$
-  - $$mdi:arrow-down$$
-  - $$mdi:arrow-right$$
-  - {t: '=', s: +}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - <
-  - '>'
   - {type: none}
-  - {t: Qwer, h: to}
+  - {t: '[', h: '{', s: '{'}
+  - {t: ']', h: '}', s: '}'}
+  - {t: '-', h: _, s: _}
   - {t: '''', h: '"', s: '"'}
-  - {t: ▽, type: trans}
-  - {t: Qwer, h: to}
-  - {t: Qwer, h: to}
-  - {t: ▽, type: trans}
   - {t: \, h: '|', s: '|'}
-  Sym:
-  - '~'
-  - PgUp
-  - HOME
-  - $$mdi:arrow-up$$
-  - END
-  - _
-  - '{'
-  - '}'
+  - {t: '=', h: +, s: +}
   - (
   - )
+  - {type: none}
+  - {type: none}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Qwer, h: to}
+  - {t: Qwer, h: to}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  Sym:
+  - '~'
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -118,23 +118,23 @@ layers:
   - {t: ), h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
-  - PgDn
-  - $$mdi:arrow-left$$
-  - $$mdi:arrow-down$$
-  - $$mdi:arrow-right$$
+  - {type: none}
+  - '{'
+  - '}'
+  - _
+  - '"'
+  - '|'
   - +
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
   - <
   - '>'
   - {type: none}
-  - {t: Qwer, h: to}
-  - {t: '''', h: '"', s: '"'}
+  - {type: none}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Qwer, h: to}
   - {t: Qwer, h: to}
   - {t: ▽, type: trans}
-  - {t: \, h: '|', s: '|'}
+  - {t: ▽, type: trans}
   Fun:
   - {type: none}
   - F1
@@ -142,7 +142,7 @@ layers:
   - F3
   - F4
   - {type: none}
-  - .
+  - {type: none}
   - '7'
   - '8'
   - '9'
@@ -172,59 +172,56 @@ layers:
   - '1'
   - '2'
   - '3'
+  - .
   - '='
-  - {t: Qwer, h: to}
   - {type: none}
   - {t: ▽, type: trans}
   - {t: Qwer, h: to}
   - {t: Qwer, h: to}
   - {t: ▽, type: trans}
   - {type: none}
-  Boot:
-  - $$mdi:download-circle$$
+  Nav:
   - {type: none}
   - {type: none}
-  - $$mdi:brightness-4$$
-  - $$mdi:brightness-5$$
-  - {type: none}
-  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '4'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '5'}
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - $$mdi:volume-mute$$
-  - $$mdi:volume-minus$$
-  - $$mdi:volume-plus$$
-  - {type: none}
-  - {type: none}
-  - $$mdi:bluetooth-off$$
-  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-left$$'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-right$$'}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - $$mdi:play-pause$$
-  - $$mdi:skip-backward$$
-  - $$mdi:skip-forward$$
+  - HOME
+  - $$mdi:arrow-up$$
+  - END
+  - PgUp
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: Qwer, h: to}
   - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-right$$
+  - PgDn
+  - {type: none}
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-up$$
+  - $$mdi:arrow-right$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Qwer, h: to}
   - {t: Qwer, h: to}
   - {t: ▽, type: trans}
-  - {type: none}
-combos:
-- p: [38, 43]
-  k: {t: Boot, h: to}
+  - {t: ▽, type: trans}

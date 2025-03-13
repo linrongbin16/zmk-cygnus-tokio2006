@@ -10,9 +10,7 @@
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 
 #define SCROLLER 1
 #define MOUSE 4
@@ -51,46 +49,71 @@
             label = "BOOTLOAD_MACRO";
         };
 
-        mo1layer_macro: mo1layer_macro {
+        less_equal_macro: less_equal_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&mo 1>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&mo 1>;
+            bindings = <&macro_tap>, <&kp LESS_THAN &kp EQUAL>;
 
-            label = "MO1LAYER_LAYER";
-            tap-ms = <0>;
+            label = "LESS_EQUAL_MACRO";
         };
 
-        mo2layer_macro: mo2layer_macro {
+        greater_equal_macro: greater_equal_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&mo 2>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&mo 2>;
+            bindings = <&macro_press>, <&kp GREATER_THAN &kp EQUAL>;
 
-            label = "MO2LAYER_MACRO";
-            wait-ms = <0>;
-            tap-ms = <0>;
+            label = "GREATER_EQUAL_MACRO";
+        };
+
+        left_arrow_macro: left_arrow_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp LESS_THAN &kp MINUS>;
+
+            label = "LEFT_ARROW_MACRO";
+        };
+
+        right_arrow_macro: right_arrow_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp MINUS &kp GREATER_THAN>;
+
+            label = "RIGHT_ARROW_MACRO";
+        };
+
+        bold_right_arrow_macro: bold_right_arrow_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press>, <&kp EQUAL &kp GREATER_THAN>;
+
+            label = "BOLD_RIGHT_ARROW_MACRO";
+        };
+
+        mo_macro: mo_macro {
+            compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <1>;
+            bindings =
+                <&macro_param_1to1>,
+                <&macro_press>,
+                <&mo MACRO_PLACEHOLDER>,
+                <&macro_pause_for_release>,
+                <&macro_param_1to1>,
+                <&macro_release>,
+                <&mo MACRO_PLACEHOLDER>;
+
+            label = "MO_MACRO";
+        };
+
+        not_equal_macro: not_equal_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_tap>, <&kp EXCLAMATION &kp EQUAL>;
+
+            label = "NOT_EQUAL_MACRO";
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        to_flash {
-            bindings = <&to 4>;
-            key-positions = <38 43>;
-            timeout-ms = <42>;
-            require-prior-idle-ms = <125>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     behaviors {
         as: auto_shift {
@@ -133,22 +156,40 @@
             hold-trigger-on-release;
         };
 
-        monum: mo_num_layer {
+        mo1: mo_layer1 {
             compatible = "zmk,behavior-tap-dance";
-            label = "MO_NUM_LAYER";
+            label = "MO_LAYER1";
             #binding-cells = <0>;
-            bindings = <&mo1layer_macro>, <&to 1>;
+            bindings = <&mo_macro 1>, <&to 1>;
 
-            tapping-term-ms = <175>;
+            tapping-term-ms = <125>;
         };
 
-        mosym: mo_sym_layer {
+        mo2: mo_layer2 {
             compatible = "zmk,behavior-tap-dance";
-            label = "MO_SYM_LAYER";
+            label = "MO_LAYER2";
             #binding-cells = <0>;
-            bindings = <&mo2layer_macro>, <&to 2>;
+            bindings = <&mo_macro 2>, <&to 2>;
 
-            tapping-term-ms = <175>;
+            tapping-term-ms = <125>;
+        };
+
+        mo3: mo_layer3 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "MO_LAYER3";
+            #binding-cells = <0>;
+            bindings = <&mo_macro 3>, <&to 3>;
+
+            tapping-term-ms = <125>;
+        };
+
+        mo4: mo_layer4 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "MO_LAYER4";
+            #binding-cells = <0>;
+            bindings = <&mo_macro 4>, <&to 4>;
+
+            tapping-term-ms = <125>;
         };
     };
 
@@ -157,10 +198,10 @@
 
         Qwer {
             bindings = <
-&kp TAB       &kp Q            &kp W            &kp E                           &kp R              &kp T   &kp Y   &kp U               &kp I                 &kp O                 &kp P                &none      &none  &none
-&kp ESC       &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D             &hml LEFT_SHIFT F  &kp G   &kp H   &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L      &hmr RIGHT_ALT SEMI  &kp ENTER
-&kp CAPSLOCK  &kp Z            &kp X            &kp C                           &kp V              &kp B   &kp N   &kp M               &as LESS_THAN COMMA   &as GREATER_THAN DOT  &as QUESTION SLASH   &to 3
-                                                &as DOUBLE_QUOTES SINGLE_QUOTE  &kp SPACE          &monum  &mosym  &kp BACKSPACE       &as PIPE BACKSLASH
+&kp TAB       &kp Q            &kp W            &kp E                &kp R              &kp T  &kp Y  &kp U               &kp I                 &kp O                 &kp P                &none      &none  &none
+&kp ESC       &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G  &kp H  &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L      &hmr RIGHT_ALT SEMI  &kp ENTER
+&kp CAPSLOCK  &kp Z            &kp X            &kp C                &kp V              &kp B  &kp N  &kp M               &as LESS_THAN COMMA   &as GREATER_THAN DOT  &as QUESTION SLASH   &none
+                                                &mo4                 &kp SPACE          &mo1   &mo2   &kp BACKSPACE       &to 3
             >;
 
             label = "Qwer";
@@ -168,10 +209,10 @@
 
         Num {
             bindings = <
-&kp GRAVE  &kp PAGE_UP             &kp HOME                &kp UP_ARROW                    &kp END                   &kp MINUS     &kp LEFT_BRACE    &kp RIGHT_BRACE            &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS    &none                    &none      &none  &none
-&kp ESC    &hml LEFT_ALT NUMBER_1  &hml LEFT_GUI NUMBER_2  &hml LEFT_CONTROL NUMBER_3      &hml LEFT_SHIFT NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &hmr RIGHT_SHIFT NUMBER_7  &hmr RIGHT_CONTROL NUMBER_8  &hmr RIGHT_GUI NUMBER_9  &hmr RIGHT_ALT NUMBER_0  &kp ENTER
-&none      &kp PAGE_DOWN           &kp LEFT_ARROW          &kp DOWN_ARROW                  &kp RIGHT_ARROW           &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET          &kp LESS_THAN                &kp GREATER_THAN         &none                    &to 0
-                                                           &as DOUBLE_QUOTES SINGLE_QUOTE  &trans                    &to 0         &to 0             &trans                     &as PIPE BACKSLASH
+&kp GRAVE  &none                   &none                        &left_arrow_macro              &right_arrow_macro        &none                           &none               &less_equal_macro          &greater_equal_macro         &not_equal_macro         &none                    &none      &none  &none
+&kp ESC    &hml LEFT_ALT NUMBER_1  &hml LEFT_GUI NUMBER_2       &hml LEFT_CONTROL NUMBER_3     &hml LEFT_SHIFT NUMBER_4  &kp NUMBER_5                    &kp NUMBER_6        &hmr RIGHT_SHIFT NUMBER_7  &hmr RIGHT_CONTROL NUMBER_8  &hmr RIGHT_GUI NUMBER_9  &hmr RIGHT_ALT NUMBER_0  &kp ENTER
+&none      &none                   &as LEFT_BRACE LEFT_BRACKET  &as RIGHT_BRACE RIGHT_BRACKET  &as UNDERSCORE MINUS      &as DOUBLE_QUOTES SINGLE_QUOTE  &as PIPE BACKSLASH  &as PLUS EQUAL             &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS    &none                    &none
+                                                                &trans                         &trans                    &to 0                           &to 0               &trans                     &trans
             >;
 
             label = "Num";
@@ -179,10 +220,10 @@
 
         Sym {
             bindings = <
-&kp TILDE  &kp PAGE_UP                &kp HOME               &kp UP_ARROW                    &kp END                 &kp UNDERSCORE  &kp LEFT_BRACE    &kp RIGHT_BRACE             &kp LEFT_PARENTHESIS         &kp RIGHT_PARENTHESIS            &none                             &none      &none  &none
-&kp ESC    &hml LEFT_ALT EXCLAMATION  &hml LEFT_GUI AT_SIGN  &hml LEFT_CONTROL HASH          &hml LEFT_SHIFT DOLLAR  &kp PERCENT     &kp CARET         &hmr RIGHT_SHIFT AMPERSAND  &hmr RIGHT_CONTROL ASTERISK  &hmr RIGHT_GUI LEFT_PARENTHESIS  &hmr RIGHT_ALT RIGHT_PARENTHESIS  &kp ENTER
-&none      &kp PAGE_DOWN              &kp LEFT_ARROW         &kp DOWN_ARROW                  &kp RIGHT_ARROW         &kp PLUS        &kp LEFT_BRACKET  &kp RIGHT_BRACKET           &kp LESS_THAN                &kp GREATER_THAN                 &none                             &to 0
-                                                             &as DOUBLE_QUOTES SINGLE_QUOTE  &trans                  &to 0           &to 0             &trans                      &as PIPE BACKSLASH
+&kp TILDE  &none                      &none                  &none                   &none                   &none              &none      &none                       &none                        &none                            &none                             &none      &none  &none
+&kp ESC    &hml LEFT_ALT EXCLAMATION  &hml LEFT_GUI AT_SIGN  &hml LEFT_CONTROL HASH  &hml LEFT_SHIFT DOLLAR  &kp PERCENT        &kp CARET  &hmr RIGHT_SHIFT AMPERSAND  &hmr RIGHT_CONTROL ASTERISK  &hmr RIGHT_GUI LEFT_PARENTHESIS  &hmr RIGHT_ALT RIGHT_PARENTHESIS  &kp ENTER
+&none      &none                      &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp UNDERSCORE          &kp DOUBLE_QUOTES  &kp PIPE   &kp PLUS                    &kp LESS_THAN                &kp GREATER_THAN                 &none                             &none
+                                                             &trans                  &trans                  &to 0              &to 0      &trans                      &trans
             >;
 
             label = "Sym";
@@ -190,24 +231,24 @@
 
         Fun {
             bindings = <
-&none    &kp F1            &kp F2            &kp F3                &kp F4              &none  &kp KP_DOT       &kp KP_N7               &kp KP_N8                 &kp KP_N9             &kp KP_PLUS                 &kp KP_MINUS   &none  &none
+&none    &kp F1            &kp F2            &kp F3                &kp F4              &none  &none            &kp KP_N7               &kp KP_N8                 &kp KP_N9             &kp KP_PLUS                 &kp KP_MINUS   &none  &none
 &kp ESC  &hml LEFT_ALT F5  &hml LEFT_GUI F6  &hml LEFT_CONTROL F7  &hml LEFT_SHIFT F8  &none  &none            &hmr RIGHT_SHIFT KP_N4  &hmr RIGHT_CONTROL KP_N5  &hmr RIGHT_GUI KP_N6  &hmr RIGHT_ALT KP_MULTIPLY  &kp KP_DIVIDE
-&none    &kp F9            &kp F10           &kp F11               &kp F12             &none  &kp KP_NUMBER_0  &kp KP_N1               &kp KP_N2                 &kp KP_N3             &kp KP_EQUAL                &to 0
+&none    &kp F9            &kp F10           &kp F11               &kp F12             &none  &kp KP_NUMBER_0  &kp KP_N1               &kp KP_N2                 &kp KP_N3             &kp KP_DOT                  &kp KP_EQUAL
                                              &none                 &trans              &to 0  &to 0            &trans                  &none
             >;
 
             label = "Fun";
         };
 
-        Boot {
+        Nav {
             bindings = <
-&dongle_bootload_macro  &none  &none             &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &out OUT_TOG  &none  &none
-&none                   &none  &kp C_MUTE        &kp C_VOLUME_DOWN     &kp C_VOLUME_UP       &none  &none         &bt BT_CLR    &bt BT_PRV    &bt BT_NXT    &none         &none
-&none                   &none  &kp C_PLAY_PAUSE  &kp C_PREV            &kp C_NEXT            &none  &none         &none         &none         &none         &none         &to 0
-                                                 &none                 &trans                &to 0  &to 0         &trans        &none
+&none  &none  &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &none  &none           &none           &none         &none            &none  &none  &none
+&none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none
+&none  &none  &none           &none           &none            &none          &none  &none           &none           &none         &none            &none
+                              &trans          &trans           &to 0          &to 0  &trans          &trans
             >;
 
-            label = "Boot";
+            label = "Nav";
         };
     };
 
