@@ -47,7 +47,7 @@ layers:
   - {t: \, h: '|', s: '|'}
   Num:
   - {t: '`', s: '~'}
-  - {type: none}
+  - PgUp
   - HOME
   - $$mdi:arrow-up$$
   - END
@@ -56,8 +56,8 @@ layers:
   - <=
   - '>='
   - '!='
-  - {type: none}
-  - {type: none}
+  - <-
+  - ->
   - {type: none}
   - {type: none}
   - ESC
@@ -73,7 +73,7 @@ layers:
   - {t: '0', h: '$$mdi:apple-keyboard-option$$', s: )}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
-  - {type: none}
+  - PgDn
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
@@ -92,17 +92,17 @@ layers:
   - {type: none}
   Sym:
   - '~'
-  - {type: none}
-  - {type: none}
+  - PgUp
+  - HOME
   - $$mdi:arrow-up$$
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - END
+  - _
+  - +
+  - <=
+  - '>='
+  - '!='
+  - <-
+  - ->
   - {type: none}
   - {type: none}
   - ESC
@@ -118,12 +118,12 @@ layers:
   - {t: ), h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
-  - {type: none}
+  - PgDn
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-right$$
   - '{'
   - '}'
-  - _
-  - +
-  - '"'
   - {type: none}
   - <
   - '>'
@@ -173,51 +173,6 @@ layers:
   - '2'
   - '3'
   - '='
-  - {t: Qwer, h: to}
-  - {type: none}
-  - {t: ▽, type: trans}
-  - {t: Qwer, h: to}
-  - {t: Qwer, h: to}
-  - {t: ▽, type: trans}
-  - {type: none}
-  Nav:
-  - {type: none}
-  - {type: none}
-  - HOME
-  - $$mdi:arrow-up$$
-  - END
-  - PgUp
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - $$mdi:arrow-left$$
-  - $$mdi:arrow-down$$
-  - $$mdi:arrow-right$$
-  - PgDn
-  - {type: none}
-  - $$mdi:arrow-left$$
-  - $$mdi:arrow-down$$
-  - $$mdi:arrow-up$$
-  - $$mdi:arrow-right$$
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
   - {t: Qwer, h: to}
   - {type: none}
   - {t: ▽, type: trans}
