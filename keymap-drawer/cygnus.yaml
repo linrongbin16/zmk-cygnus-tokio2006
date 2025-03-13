@@ -51,8 +51,8 @@ layers:
   - HOME
   - $$mdi:arrow-up$$
   - END
-  - {t: '-', h: _, s: _}
-  - {t: '=', h: +, s: +}
+  - _
+  - +
   - <=
   - '>='
   - '!='
@@ -77,11 +77,11 @@ layers:
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
-  - {t: '[', h: '{', s: '{'}
-  - {t: ']', h: '}', s: '}'}
+  - {t: '-', h: _, s: _}
+  - {t: '=', h: +, s: +}
   - {type: none}
-  - (
-  - )
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {t: Qwer, h: to}
   - {type: none}
@@ -122,8 +122,8 @@ layers:
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
-  - '{'
-  - '}'
+  - {t: '-', h: _, s: _}
+  - {t: '=', h: +, s: +}
   - {type: none}
   - <
   - '>'
