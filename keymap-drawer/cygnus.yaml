@@ -39,7 +39,7 @@ layers:
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
   - {t: Fun, h: to}
-  - {t: Nav, h: magic}
+  - Nav
   - $$mdi:keyboard-space$$
   - {t: Num, h: magic}
   - {t: Sym, h: magic}
@@ -83,13 +83,13 @@ layers:
   - (
   - )
   - {type: none}
+  - {t: Qwer, h: to}
   - {type: none}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: Qwer, h: to}
   - {t: Qwer, h: to}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: none}
   Sym:
   - '~'
   - {type: none}
@@ -128,13 +128,13 @@ layers:
   - <
   - '>'
   - {type: none}
+  - {t: Qwer, h: to}
   - {type: none}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: Qwer, h: to}
   - {t: Qwer, h: to}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: none}
   Fun:
   - {type: none}
   - F1
@@ -142,7 +142,7 @@ layers:
   - F3
   - F4
   - {type: none}
-  - {type: none}
+  - .
   - '7'
   - '8'
   - '9'
@@ -172,8 +172,8 @@ layers:
   - '1'
   - '2'
   - '3'
-  - .
   - '='
+  - {t: Qwer, h: to}
   - {type: none}
   - {t: ▽, type: trans}
   - {t: Qwer, h: to}
@@ -218,10 +218,10 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
+  - {t: Qwer, h: to}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: Qwer, h: to}
+  - {t: Qwer, h: to}
+  - {t: ▽, type: trans}
   - {type: none}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Qwer, h: to}
-  - {t: Qwer, h: to}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
