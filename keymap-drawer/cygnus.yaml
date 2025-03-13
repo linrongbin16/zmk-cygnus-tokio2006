@@ -92,12 +92,12 @@ layers:
   - {type: none}
   Sym:
   - '~'
-  - PgUp
+  - {type: none}
   - HOME
   - $$mdi:arrow-up$$
   - END
-  - _
-  - +
+  - PgUp
+  - $$mdi:mouse-move-up$$
   - {type: none}
   - <-
   - ->
@@ -118,12 +118,12 @@ layers:
   - {t: ), h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
-  - PgDn
+  - {type: none}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
-  - {t: '-', h: _, s: _}
-  - {t: '=', h: +, s: +}
+  - PgDn
+  - $$mdi:mouse-move-down$$
   - <=
   - '>='
   - '!='
