@@ -94,6 +94,34 @@
             timeout-ms = <42>;
             require-prior-idle-ms = <125>;
         };
+
+        left_brace {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <16 17>;
+            timeout-ms = <42>;
+            require-prior-idle-ms = <125>;
+        };
+
+        right_brace {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <23 22>;
+            timeout-ms = <42>;
+            require-prior-idle-ms = <125>;
+        };
+
+        left_parenthesis {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <30 29>;
+            timeout-ms = <42>;
+            require-prior-idle-ms = <125>;
+        };
+
+        right_parenthesis {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <34 33>;
+            timeout-ms = <42>;
+            require-prior-idle-ms = <125>;
+        };
     };
 
     behaviors {
