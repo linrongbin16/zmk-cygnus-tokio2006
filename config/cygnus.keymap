@@ -11,6 +11,7 @@
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #define SCROLLER 1
 #define MOUSE 4
@@ -136,6 +137,34 @@
             timeout-ms = <42>;
             require-prior-idle-ms = <125>;
         };
+
+        underscore {
+            bindings = <&kp UNDERSCORE>;
+            key-positions = <19 18>;
+            timeout-ms = <42>;
+            require-prior-idle-ms = <125>;
+        };
+
+        minus {
+            bindings = <&kp MINUS>;
+            key-positions = <30 31>;
+            timeout-ms = <42>;
+            require-prior-idle-ms = <125>;
+        };
+
+        plus {
+            bindings = <&kp PLUS>;
+            key-positions = <21 20>;
+            timeout-ms = <42>;
+            require-prior-idle-ms = <125>;
+        };
+
+        equal {
+            bindings = <&kp EQUAL>;
+            key-positions = <33 32>;
+            timeout-ms = <42>;
+            require-prior-idle-ms = <125>;
+        };
     };
 
     behaviors {
@@ -232,10 +261,10 @@
 
         Num {
             bindings = <
-&kp GRAVE  &kp PAGE_UP             &kp HOME                &kp UP_ARROW                &kp END                   &kp UNDERSCORE        &kp PLUS        &none                        &tap2_macro LESS_THAN MINUS     &tap2_macro MINUS GREATER_THAN  &none                    &none      &none  &none
-&kp ESC    &hml LEFT_ALT NUMBER_1  &hml LEFT_GUI NUMBER_2  &hml LEFT_CONTROL NUMBER_3  &hml LEFT_SHIFT NUMBER_4  &kp NUMBER_5          &kp NUMBER_6    &hmr RIGHT_SHIFT NUMBER_7    &hmr RIGHT_CONTROL NUMBER_8     &hmr RIGHT_GUI NUMBER_9         &hmr RIGHT_ALT NUMBER_0  &kp ENTER
-&none      &kp PAGE_DOWN           &kp LEFT_ARROW          &kp DOWN_ARROW              &kp RIGHT_ARROW           &as UNDERSCORE MINUS  &as PLUS EQUAL  &tap2_macro LESS_THAN EQUAL  &tap2_macro GREATER_THAN EQUAL  &tap2_macro EXCLAMATION EQUAL   &none                    &to 0
-                                                           &none                       &trans                    &to 0                 &to 0           &trans                       &none
+&kp GRAVE  &none                   &kp HOME                &kp UP_ARROW                &kp END                   &kp PAGE_UP    &msc SCRL_UP    &none                        &tap2_macro LESS_THAN MINUS     &tap2_macro MINUS GREATER_THAN  &none                    &none      &none  &none
+&kp ESC    &hml LEFT_ALT NUMBER_1  &hml LEFT_GUI NUMBER_2  &hml LEFT_CONTROL NUMBER_3  &hml LEFT_SHIFT NUMBER_4  &kp NUMBER_5   &kp NUMBER_6    &hmr RIGHT_SHIFT NUMBER_7    &hmr RIGHT_CONTROL NUMBER_8     &hmr RIGHT_GUI NUMBER_9         &hmr RIGHT_ALT NUMBER_0  &kp ENTER
+&none      &none                   &kp LEFT_ARROW          &kp DOWN_ARROW              &kp RIGHT_ARROW           &kp PAGE_DOWN  &msc SCRL_DOWN  &tap2_macro LESS_THAN EQUAL  &tap2_macro GREATER_THAN EQUAL  &tap2_macro EXCLAMATION EQUAL   &none                    &to 0
+                                                           &none                       &trans                    &to 0          &to 0           &trans                       &none
             >;
 
             label = "Num";
