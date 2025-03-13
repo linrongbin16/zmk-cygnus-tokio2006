@@ -39,10 +39,10 @@ layers:
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
   - {type: none}
-  - '&mo4'
+  - {t: Nav, h: magic}
   - $$mdi:keyboard-space$$
-  - '&mo1'
-  - '&mo2'
+  - {t: Num, h: magic}
+  - {t: Sym, h: magic}
   - {t: '$$mdi:backspace-outline$$', type: backspace}
   - {t: Fun, h: to}
   Num:
@@ -55,7 +55,7 @@ layers:
   - {type: none}
   - <=
   - '>='
-  - '&not_equal_macro'
+  - '!='
   - {type: none}
   - {type: none}
   - {type: none}
