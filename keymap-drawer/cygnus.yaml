@@ -53,11 +53,11 @@ layers:
   - END
   - _
   - +
-  - <=
-  - '>='
-  - '!='
+  - {type: none}
   - <-
   - ->
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {type: none}
   - ESC
@@ -79,9 +79,9 @@ layers:
   - $$mdi:arrow-right$$
   - {t: '-', h: _, s: _}
   - {t: '=', h: +, s: +}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - <=
+  - '>='
+  - '!='
   - {type: none}
   - {t: Qwer, h: to}
   - {type: none}
