@@ -355,8 +355,11 @@ rect.held, rect.combo.held {
 <text x="0" y="24" class="key hold">?</text>
 <text x="0" y="-24" class="key shifted">?</text>
 </g>
-<g transform="translate(896, 168)" class="key none keypos-37">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(896, 168)" class="key keypos-37">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
+<a href="#Fun">
+<text x="0" y="0" class="key tap layer-activator">Fun</text>
+</a><text x="0" y="24" class="key hold">to</text>
 </g>
 <g transform="translate(252, 231)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -386,9 +389,9 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(672, 231)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#Fun">
-<text x="0" y="0" class="key tap layer-activator">Fun</text>
-</a><text x="0" y="24" class="key hold">to</text>
+<text x="0" y="0" class="key tap">\</text>
+<text x="0" y="24" class="key hold">|</text>
+<text x="0" y="-24" class="key shifted">|</text>
 </g>
 </g>
 </g>
@@ -542,15 +545,12 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(616, 161)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">\</text>
-<text x="0" y="24" class="key hold">|</text>
-<text x="0" y="-24" class="key shifted">|</text>
-</g>
-<g transform="translate(672, 147)" class="key keypos-33">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&#x27;</text>
 <text x="0" y="24" class="key hold">&quot;</text>
 <text x="0" y="-24" class="key shifted">&quot;</text>
+</g>
+<g transform="translate(672, 147)" class="key none keypos-33">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g transform="translate(728, 140)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -722,11 +722,10 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(616, 161)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">|</text>
-</g>
-<g transform="translate(672, 147)" class="key keypos-33">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&quot;</text>
+</g>
+<g transform="translate(672, 147)" class="key none keypos-33">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g transform="translate(728, 140)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>

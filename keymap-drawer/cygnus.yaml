@@ -38,13 +38,13 @@ layers:
   - {t: ',', h: <, s: <}
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
-  - {type: none}
+  - {t: Fun, h: to}
   - {t: Nav, h: magic}
   - $$mdi:keyboard-space$$
   - {t: Num, h: magic}
   - {t: Sym, h: magic}
   - {t: '$$mdi:backspace-outline$$', type: backspace}
-  - {t: Fun, h: to}
+  - {t: \, h: '|', s: '|'}
   Num:
   - {t: '`', s: '~'}
   - {type: none}
@@ -78,8 +78,8 @@ layers:
   - {t: ']', h: '}', s: '}'}
   - {t: '-', h: _, s: _}
   - {t: '=', h: +, s: +}
-  - {t: \, h: '|', s: '|'}
   - {t: '''', h: '"', s: '"'}
+  - {type: none}
   - (
   - )
   - {type: none}
@@ -123,8 +123,8 @@ layers:
   - '}'
   - _
   - +
-  - '|'
   - '"'
+  - {type: none}
   - <
   - '>'
   - {type: none}
