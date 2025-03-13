@@ -245,7 +245,7 @@
 &none  &none  &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP    &none  &none           &none           &none         &none            &none  &none  &none
 &none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none
 &none  &none  &none           &none           &none            &none          &none  &none           &none           &none         &none            &none
-                              &none           &none            &to 0          &to 0  &none           &none
+                              &trans          &trans           &to 0          &to 0  &trans          &trans
             >;
 
             label = "Nav";
