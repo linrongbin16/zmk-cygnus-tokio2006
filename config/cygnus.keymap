@@ -60,7 +60,7 @@
         greater_equal_macro: greater_equal_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp GREATER_THAN &kp EQUAL>;
+            bindings = <&macro_tap>, <&kp GREATER_THAN &kp EQUAL>;
 
             label = "GREATER_EQUAL_MACRO";
         };
@@ -84,7 +84,7 @@
         bold_right_arrow_macro: bold_right_arrow_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&macro_press>, <&kp EQUAL &kp GREATER_THAN>;
+            bindings = <&macro_tap>, <&kp EQUAL &kp GREATER_THAN>;
 
             label = "BOLD_RIGHT_ARROW_MACRO";
         };
