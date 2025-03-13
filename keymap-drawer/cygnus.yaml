@@ -54,7 +54,7 @@ layers:
   - {type: none}
   - {type: none}
   - <=
-  - '&tap2_macro GREATER_THAN EQUAL'
+  - '>='
   - '!='
   - {type: none}
   - {type: none}
