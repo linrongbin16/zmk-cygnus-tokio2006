@@ -49,13 +49,13 @@ layers:
   - {t: '`', s: '~'}
   - {type: none}
   - {type: none}
-  - <-
-  - ->
+  - '&tap2_macro LESS_THAN MINUS'
+  - '&tap2_macro MINUS GREATER_THAN'
   - {type: none}
   - {type: none}
-  - <=
-  - '>='
-  - '!='
+  - '&tap2_macro LESS_THAN EQUAL'
+  - '&tap2_macro GREATER_THAN EQUAL'
+  - '&tap2_macro EXCLAMATION EQUAL'
   - {type: none}
   - {type: none}
   - {type: none}
