@@ -180,3 +180,8 @@ layers:
   - {t: Qwer, h: to}
   - {t: ▽, type: trans}
   - {type: none}
+combos:
+- p: [28, 29]
+  k: '['
+- p: [34, 35]
+  k: ']'
