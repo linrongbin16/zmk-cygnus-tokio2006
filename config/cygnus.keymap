@@ -195,10 +195,10 @@
 
         Qwer {
             bindings = <
-&kp TAB       &kp Q            &kp W            &kp E                &kp R              &kp T  &kp Y  &kp U               &kp I                 &kp O                 &kp P                &none      &none  &none
-&kp ESC       &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F  &kp G  &kp H  &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L      &hmr RIGHT_ALT SEMI  &kp ENTER
-&kp CAPSLOCK  &kp Z            &kp X            &kp C                &kp V              &kp B  &kp N  &kp M               &as LESS_THAN COMMA   &as GREATER_THAN DOT  &as QUESTION SLASH   &to 3
-                                                &mo 4                &kp SPACE          &mo1   &mo2   &kp BACKSPACE       &as PIPE BACKSLASH
+&kp TAB       &kp Q            &kp W            &kp E                           &kp R              &kp T  &kp Y  &kp U               &kp I                 &kp O                 &kp P                &none      &none  &none
+&kp ESC       &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D             &hml LEFT_SHIFT F  &kp G  &kp H  &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L      &hmr RIGHT_ALT SEMI  &kp ENTER
+&kp CAPSLOCK  &kp Z            &kp X            &kp C                           &kp V              &kp B  &kp N  &kp M               &as LESS_THAN COMMA   &as GREATER_THAN DOT  &as QUESTION SLASH   &to 3
+                                                &as DOUBLE_QUOTES SINGLE_QUOTE  &kp SPACE          &mo1   &mo2   &kp BACKSPACE       &as PIPE BACKSLASH
             >;
 
             label = "Qwer";
@@ -206,10 +206,10 @@
 
         Num {
             bindings = <
-&kp GRAVE  &none                   &none                        &tap2_macro LESS_THAN MINUS    &tap2_macro MINUS GREATER_THAN  &none           &none                           &tap2_macro LESS_THAN EQUAL  &tap2_macro GREATER_THAN EQUAL  &tap2_macro EXCLAMATION EQUAL  &none                    &none      &none  &none
-&kp ESC    &hml LEFT_ALT NUMBER_1  &hml LEFT_GUI NUMBER_2       &hml LEFT_CONTROL NUMBER_3     &hml LEFT_SHIFT NUMBER_4        &kp NUMBER_5    &kp NUMBER_6                    &hmr RIGHT_SHIFT NUMBER_7    &hmr RIGHT_CONTROL NUMBER_8     &hmr RIGHT_GUI NUMBER_9        &hmr RIGHT_ALT NUMBER_0  &kp ENTER
-&none      &none                   &as LEFT_BRACE LEFT_BRACKET  &as RIGHT_BRACE RIGHT_BRACKET  &as UNDERSCORE MINUS            &as PLUS EQUAL  &as DOUBLE_QUOTES SINGLE_QUOTE  &none                        &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS          &none                    &to 0
-                                                                &none                          &trans                          &to 0           &to 0                           &trans                       &none
+&kp GRAVE  &none                   &kp HOME                &kp UP_ARROW                &kp END                   &as UNDERSCORE MINUS         &as PLUS EQUAL                 &tap2_macro LESS_THAN EQUAL  &tap2_macro GREATER_THAN EQUAL  &tap2_macro EXCLAMATION EQUAL  &none                    &none      &none  &none
+&kp ESC    &hml LEFT_ALT NUMBER_1  &hml LEFT_GUI NUMBER_2  &hml LEFT_CONTROL NUMBER_3  &hml LEFT_SHIFT NUMBER_4  &kp NUMBER_5                 &kp NUMBER_6                   &hmr RIGHT_SHIFT NUMBER_7    &hmr RIGHT_CONTROL NUMBER_8     &hmr RIGHT_GUI NUMBER_9        &hmr RIGHT_ALT NUMBER_0  &kp ENTER
+&none      &none                   &kp LEFT_ARROW          &kp DOWN_ARROW              &kp RIGHT_ARROW           &as LEFT_BRACE LEFT_BRACKET  &as RIGHT_BRACE RIGHT_BRACKET  &none                        &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS          &none                    &to 0
+                                                           &none                       &trans                    &to 0                        &to 0                          &trans                       &none
             >;
 
             label = "Num";
@@ -217,7 +217,7 @@
 
         Sym {
             bindings = <
-&kp TILDE  &none                      &none                  &none                   &none                   &none        &none              &none                       &none                        &none                            &none                             &none      &none  &none
+&kp TILDE  &none                      &none                  &kp UP_ARROW            &none                   &none        &none              &none                       &none                        &none                            &none                             &none      &none  &none
 &kp ESC    &hml LEFT_ALT EXCLAMATION  &hml LEFT_GUI AT_SIGN  &hml LEFT_CONTROL HASH  &hml LEFT_SHIFT DOLLAR  &kp PERCENT  &kp CARET          &hmr RIGHT_SHIFT AMPERSAND  &hmr RIGHT_CONTROL ASTERISK  &hmr RIGHT_GUI LEFT_PARENTHESIS  &hmr RIGHT_ALT RIGHT_PARENTHESIS  &kp ENTER
 &none      &none                      &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp UNDERSCORE          &kp PLUS     &kp DOUBLE_QUOTES  &none                       &kp LESS_THAN                &kp GREATER_THAN                 &none                             &to 0
                                                              &none                   &trans                  &to 0        &to 0              &trans                      &none
