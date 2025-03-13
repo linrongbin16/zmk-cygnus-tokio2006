@@ -78,7 +78,23 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        left_bracket {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <28 29>;
+            timeout-ms = <42>;
+            require-prior-idle-ms = <125>;
+        };
+
+        right_bracket {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <34 35>;
+            timeout-ms = <42>;
+            require-prior-idle-ms = <125>;
+        };
+    };
 
     behaviors {
         as: auto_shift {
