@@ -122,6 +122,20 @@
             timeout-ms = <42>;
             require-prior-idle-ms = <125>;
         };
+
+        less_than {
+            bindings = <&kp LESS_THAN>;
+            key-positions = <18 17>;
+            timeout-ms = <42>;
+            require-prior-idle-ms = <125>;
+        };
+
+        greater_than {
+            bindings = <&kp GREATER_THAN>;
+            key-positions = <22 21>;
+            timeout-ms = <42>;
+            require-prior-idle-ms = <125>;
+        };
     };
 
     behaviors {
