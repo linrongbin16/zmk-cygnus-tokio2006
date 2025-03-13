@@ -49,30 +49,6 @@
             label = "BOOTLOAD_MACRO";
         };
 
-        left_arrow_macro: left_arrow_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp LESS_THAN &kp MINUS>;
-
-            label = "LEFT_ARROW_MACRO";
-        };
-
-        right_arrow_macro: right_arrow_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp MINUS &kp GREATER_THAN>;
-
-            label = "RIGHT_ARROW_MACRO";
-        };
-
-        bold_right_arrow_macro: bold_right_arrow_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp EQUAL &kp GREATER_THAN>;
-
-            label = "BOLD_RIGHT_ARROW_MACRO";
-        };
-
         mo_macro: mo_macro {
             compatible = "zmk,behavior-macro-one-param";
             #binding-cells = <1>;
@@ -86,14 +62,6 @@
                 <&mo MACRO_PLACEHOLDER>;
 
             label = "MO_MACRO";
-        };
-
-        not_equal_macro: not_equal_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&macro_tap>, <&kp EXCLAMATION &kp EQUAL>;
-
-            label = "NOT_EQUAL_MACRO";
         };
 
         tap2_macro: tap2_macro {
