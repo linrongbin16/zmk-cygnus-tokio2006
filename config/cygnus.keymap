@@ -183,9 +183,9 @@
             tapping-term-ms = <125>;
         };
 
-        mo4: mo4 {
+        mo4: mo_layer4 {
             compatible = "zmk,behavior-tap-dance";
-            label = "MO4";
+            label = "MO_LAYER4";
             #binding-cells = <0>;
             bindings = <&mo_macro 4>, <&to 4>;
 
