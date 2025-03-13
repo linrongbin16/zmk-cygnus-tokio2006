@@ -202,6 +202,16 @@ parse_config:
       tap: "->"
     "&bold_right_arrow_macro":
       tap: "=>"
+    "&tap2_macro LESS_THAN MINUS":
+      tap: "<-"
+    "&tap2_macro MINUS GREATER_THAN":
+      tap: "->"
+    "&tap2_macro LESS_THAN EQUAL":
+      tap: "<="
+    "&tap2_macro GERATER_THAN EQUAL":
+      tap: ">="
+    "&tap2_macro EXCLAMATION EQUAL":
+      tap: "!="
 
     # Mouse
     "&mkp LCLK":
