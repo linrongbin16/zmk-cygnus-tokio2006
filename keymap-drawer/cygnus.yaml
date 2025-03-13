@@ -219,9 +219,9 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: Qwer, h: to}
   - {t: Qwer, h: to}
-  - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
