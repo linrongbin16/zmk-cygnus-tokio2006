@@ -55,7 +55,7 @@ layers:
   - $$mdi:mouse-move-up$$
   - <-
   - ->
-  - '&tap2_macro EQUAL GREATER_THAN'
+  - =>
   - {type: none}
   - {type: none}
   - {type: none}
@@ -100,7 +100,7 @@ layers:
   - $$mdi:mouse-move-up$$
   - <-
   - ->
-  - '&tap2_macro EQUAL GREATER_THAN'
+  - =>
   - {type: none}
   - {type: none}
   - {type: none}
