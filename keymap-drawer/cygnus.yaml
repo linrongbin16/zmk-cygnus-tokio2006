@@ -53,9 +53,9 @@ layers:
   - END
   - PgUp
   - $$mdi:mouse-move-up$$
-  - {type: none}
   - <-
   - ->
+  - '&tap2_macro EQUAL GREATER_THAN'
   - {type: none}
   - {type: none}
   - {type: none}
@@ -98,9 +98,9 @@ layers:
   - END
   - PgUp
   - $$mdi:mouse-move-up$$
-  - {type: none}
   - <-
   - ->
+  - '&tap2_macro EQUAL GREATER_THAN'
   - {type: none}
   - {type: none}
   - {type: none}
