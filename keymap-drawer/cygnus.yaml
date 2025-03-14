@@ -137,11 +137,11 @@ layers:
   - {type: none}
   Fun:
   - {type: none}
+  - {type: none}
   - F1
   - F2
   - F3
   - F4
-  - {type: none}
   - .
   - '7'
   - '8'
@@ -151,28 +151,28 @@ layers:
   - {type: none}
   - {type: none}
   - ESC
-  - {t: F5, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: F6, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: F7, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F8, h: '$$mdi:apple-keyboard-shift$$'}
-  - {type: none}
-  - {type: none}
+  - $$mdi:apple-keyboard-option$$
+  - {t: F5, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F6, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F7, h: '$$mdi:apple-keyboard-shift$$'}
+  - F8
+  - '='
   - {t: '4', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '5', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '6', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '*', h: '$$mdi:apple-keyboard-option$$'}
   - /
   - {type: none}
+  - {type: none}
   - F9
   - F10
   - F11
   - F12
-  - {type: none}
   - '0'
   - '1'
   - '2'
   - '3'
-  - '='
+  - {type: none}
   - {t: Qwer, h: to}
   - {type: none}
   - {t: ▽, type: trans}
