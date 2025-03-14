@@ -289,7 +289,7 @@
 
         Num {
             bindings = <
-&kp GRAVE  &none                   &kp HOME                &kp UP_ARROW                &kp END                   &kp PAGE_UP    &msc SCRL_UP    &none                        &tap2_macro LESS_THAN MINUS     &tap2_macro MINUS GREATER_THAN  &none                    &none      &none  &none
+&kp GRAVE  &none                   &kp HOME                &kp UP_ARROW                &kp END                   &kp PAGE_UP    &msc SCRL_UP    &tap2_macro LESS_THAN MINUS  &tap2_macro MINUS GREATER_THAN  &tap2_macro EQUAL GREATER_THAN  &none                    &none      &none  &none
 &kp ESC    &hml LEFT_ALT NUMBER_1  &hml LEFT_GUI NUMBER_2  &hml LEFT_CONTROL NUMBER_3  &hml LEFT_SHIFT NUMBER_4  &kp NUMBER_5   &kp NUMBER_6    &hmr RIGHT_SHIFT NUMBER_7    &hmr RIGHT_CONTROL NUMBER_8     &hmr RIGHT_GUI NUMBER_9         &hmr RIGHT_ALT NUMBER_0  &kp ENTER
 &none      &none                   &kp LEFT_ARROW          &kp DOWN_ARROW              &kp RIGHT_ARROW           &kp PAGE_DOWN  &msc SCRL_DOWN  &tap2_macro LESS_THAN EQUAL  &tap2_macro GREATER_THAN EQUAL  &tap2_macro EXCLAMATION EQUAL   &none                    &to 0
                                                            &none                       &trans                    &to 0          &to 0           &trans                       &none
@@ -300,7 +300,7 @@
 
         Sym {
             bindings = <
-&kp TILDE  &none                      &kp HOME               &kp UP_ARROW            &kp END                 &kp PAGE_UP    &msc SCRL_UP    &none                        &tap2_macro LESS_THAN MINUS     &tap2_macro MINUS GREATER_THAN   &none                             &none      &none  &none
+&kp TILDE  &none                      &kp HOME               &kp UP_ARROW            &kp END                 &kp PAGE_UP    &msc SCRL_UP    &tap2_macro LESS_THAN MINUS  &tap2_macro MINUS GREATER_THAN  &tap2_macro EQUAL GREATER_THAN   &none                             &none      &none  &none
 &kp ESC    &hml LEFT_ALT EXCLAMATION  &hml LEFT_GUI AT_SIGN  &hml LEFT_CONTROL HASH  &hml LEFT_SHIFT DOLLAR  &kp PERCENT    &kp CARET       &hmr RIGHT_SHIFT AMPERSAND   &hmr RIGHT_CONTROL ASTERISK     &hmr RIGHT_GUI LEFT_PARENTHESIS  &hmr RIGHT_ALT RIGHT_PARENTHESIS  &kp ENTER
 &none      &none                      &kp LEFT_ARROW         &kp DOWN_ARROW          &kp RIGHT_ARROW         &kp PAGE_DOWN  &msc SCRL_DOWN  &tap2_macro LESS_THAN EQUAL  &tap2_macro GREATER_THAN EQUAL  &tap2_macro EXCLAMATION EQUAL    &none                             &to 0
                                                              &none                   &trans                  &to 0          &to 0           &trans                       &none
