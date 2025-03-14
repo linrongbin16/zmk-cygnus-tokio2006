@@ -243,6 +243,34 @@
 
             tapping-term-ms = <125>;
         };
+
+        hmlf: homerow_mods_left_f {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_LEFT_F";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <125>;
+            require-prior-idle-ms = <95>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <21 22 23 24 20 25 11 10 9 8 7 6 32 33 35 34 36 37>;
+            hold-trigger-on-release;
+        };
+
+        hmrj: homerow_mods_right_j {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOMEROW_MODS_RIGHT_J";
+            bindings = <&kp>, <&kp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <150>;
+            quick-tap-ms = <125>;
+            require-prior-idle-ms = <95>;
+            flavor = "balanced";
+            hold-trigger-key-positions = <15 16 17 18 0 1 2 3 4 5 19 31 30 29 28 27 26 14>;
+            hold-trigger-on-release;
+        };
     };
 
     keymap {
@@ -250,10 +278,10 @@
 
         Qwer {
             bindings = <
-&kp TAB       &kp Q            &kp W            &kp E                           &kp R              &kp T  &kp Y  &kp U               &kp I                 &kp O                 &kp P                &none      &none  &none
-&kp ESC       &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D             &hml LEFT_SHIFT F  &kp G  &kp H  &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L      &hmr RIGHT_ALT SEMI  &kp ENTER
-&kp CAPSLOCK  &kp Z            &kp X            &kp C                           &kp V              &kp B  &kp N  &kp M               &as LESS_THAN COMMA   &as GREATER_THAN DOT  &as QUESTION SLASH   &to 3
-                                                &as DOUBLE_QUOTES SINGLE_QUOTE  &kp SPACE          &mo1   &mo2   &kp BACKSPACE       &as PIPE BACKSLASH
+&kp TAB       &kp Q            &kp W            &kp E                           &kp R               &kp T  &kp Y  &kp U                &kp I                 &kp O                 &kp P                &none      &none  &none
+&kp ESC       &hml LEFT_ALT A  &hml LEFT_GUI S  &hml LEFT_CONTROL D             &hmlf LEFT_SHIFT F  &kp G  &kp H  &hmrj RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L      &hmr RIGHT_ALT SEMI  &kp ENTER
+&kp CAPSLOCK  &kp Z            &kp X            &kp C                           &kp V               &kp B  &kp N  &kp M                &as LESS_THAN COMMA   &as GREATER_THAN DOT  &as QUESTION SLASH   &to 3
+                                                &as DOUBLE_QUOTES SINGLE_QUOTE  &kp SPACE           &mo1   &mo2   &kp BACKSPACE        &as PIPE BACKSLASH
             >;
 
             label = "Qwer";
