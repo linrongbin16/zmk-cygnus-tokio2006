@@ -180,6 +180,51 @@ layers:
   - {t: Qwer, h: to}
   - {t: ▽, type: trans}
   - {type: none}
+  Boot:
+  - $$mdi:download-circle$$
+  - {type: none}
+  - {type: none}
+  - $$mdi:brightness-4$$
+  - $$mdi:brightness-4$$
+  - {type: none}
+  - {type: none}
+  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-left$$'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-right$$'}
+  - {type: none}
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:volume-mute$$
+  - $$mdi:volume-minus$$
+  - $$mdi:volume-plus$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:play-pause$$
+  - $$mdi:skip-backward$$
+  - $$mdi:skip-forward$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
 combos:
 - p: [28, 29]
   k: '['
@@ -205,3 +250,5 @@ combos:
   k: +
 - p: [33, 32]
   k: '='
+- p: [38, 43]
+  k: {t: Boot, h: to}
