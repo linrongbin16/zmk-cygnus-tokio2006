@@ -16,7 +16,7 @@ layers:
   - {type: none}
   - {type: none}
   - ESC
-  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
+  - A
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
@@ -25,7 +25,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
+  - {t: ;, h: ':', s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-caps$$
   - Z
@@ -61,7 +61,7 @@ layers:
   - {type: none}
   - {type: none}
   - ESC
-  - {t: '1', h: '$$mdi:apple-keyboard-option$$', s: '!'}
+  - {t: '1', s: '!'}
   - {t: '2', h: '$$mdi:apple-keyboard-command$$', s: '@'}
   - {t: '3', h: '$$mdi:apple-keyboard-control$$', s: '#'}
   - {t: '4', h: '$$mdi:apple-keyboard-shift$$', s: $}
@@ -70,7 +70,7 @@ layers:
   - {t: '7', h: '$$mdi:apple-keyboard-shift$$', s: '&'}
   - {t: '8', h: '$$mdi:apple-keyboard-control$$', s: '*'}
   - {t: '9', h: '$$mdi:apple-keyboard-command$$', s: (}
-  - {t: '0', h: '$$mdi:apple-keyboard-option$$', s: )}
+  - {t: '0', s: )}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
   - {type: none}
@@ -106,7 +106,7 @@ layers:
   - {type: none}
   - {type: none}
   - ESC
-  - {t: '!', h: '$$mdi:apple-keyboard-option$$'}
+  - '!'
   - {t: '@', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '#', h: '$$mdi:apple-keyboard-control$$'}
   - {t: $, h: '$$mdi:apple-keyboard-shift$$'}
@@ -115,7 +115,7 @@ layers:
   - {t: '&', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '*', h: '$$mdi:apple-keyboard-control$$'}
   - {t: (, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: ), h: '$$mdi:apple-keyboard-option$$'}
+  - )
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {type: none}
   - {type: none}
@@ -160,7 +160,7 @@ layers:
   - {t: '4', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '5', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '6', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '*', h: '$$mdi:apple-keyboard-option$$'}
+  - '*'
   - /
   - {type: none}
   - {type: none}
@@ -173,12 +173,12 @@ layers:
   - '2'
   - '3'
   - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {t: Qwer, h: to}
   - {t: Qwer, h: to}
   - {type: none}
-  - {t: ▽, type: trans}
-  - {t: Qwer, h: to}
-  - {t: Qwer, h: to}
-  - {t: ▽, type: trans}
   - {type: none}
   Boot:
   - $$mdi:download-circle$$
@@ -218,7 +218,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: Qwer, h: to}
+  - {type: none}
   - {type: none}
   - {type: none}
   - {t: Qwer, h: to}
