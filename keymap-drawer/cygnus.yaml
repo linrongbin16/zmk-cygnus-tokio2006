@@ -41,8 +41,8 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '''', h: '"', s: '"'}
   - $$mdi:keyboard-space$$
-  - {t: Num, h: magic}
-  - {t: Sym, h: magic}
+  - Num
+  - Sym
   - {t: '$$mdi:backspace-outline$$', type: backspace}
   - {t: \, h: '|', s: '|'}
   Num:
@@ -86,8 +86,8 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Qwer, h: to}
-  - {t: Qwer, h: to}
+  - {t: Fun, h: to, type: held}
+  - {t: Boot, h: to}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Sym:
@@ -131,8 +131,8 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Qwer, h: to}
-  - {t: Qwer, h: to}
+  - {t: Fun, h: to}
+  - {t: Boot, h: to, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Fun:
