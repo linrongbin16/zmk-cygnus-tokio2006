@@ -25,7 +25,7 @@ jobs:
       draw_args: "cygnus:'--dts-layout config/boards/shields/cygnus/cygnus-layouts.dtsi'"
       debug_mode: true
   create_png:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     needs:
       - draw
     steps:
