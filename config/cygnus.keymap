@@ -283,7 +283,7 @@
 &kp TAB       &kp Q  &kp W            &kp E                           &kp R               &kp T  &kp Y  &kp U                &kp I                 &kp O                 &kp P               &none          &none  &none
 &kp ESC       &kp A  &hml LEFT_GUI S  &hml LEFT_CONTROL D             &hmlf LEFT_SHIFT F  &kp G  &kp H  &hmrj RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L      &as COLON SEMI      &kp ENTER
 &kp CAPSLOCK  &kp Z  &kp X            &kp C                           &kp V               &kp B  &kp N  &kp M                &as LESS_THAN COMMA   &as GREATER_THAN DOT  &as QUESTION SLASH  &kp RIGHT_ALT
-                                      &as DOUBLE_QUOTES SINGLE_QUOTE  &kp SPACE           &mo1   &mo2   &kp BACKSPACE        &as PIPE BACKSLASH
+                                      &as DOUBLE_QUOTES SINGLE_QUOTE  &kp SPACE           &mo 1  &mo 2  &kp BACKSPACE        &as PIPE BACKSLASH
             >;
 
             label = "Qwer";
@@ -294,7 +294,7 @@
 &kp GRAVE     &none         &kp HOME                &kp UP_ARROW                &kp END                   &kp PAGE_UP    &msc SCRL_UP    &tap2_macro LESS_THAN MINUS  &tap2_macro MINUS GREATER_THAN  &tap2_macro EQUAL GREATER_THAN  &none         &none          &none  &none
 &kp ESC       &kp NUMBER_1  &hml LEFT_GUI NUMBER_2  &hml LEFT_CONTROL NUMBER_3  &hml LEFT_SHIFT NUMBER_4  &kp NUMBER_5   &kp NUMBER_6    &hmr RIGHT_SHIFT NUMBER_7    &hmr RIGHT_CONTROL NUMBER_8     &hmr RIGHT_GUI NUMBER_9         &kp NUMBER_0  &kp ENTER
 &kp CAPSLOCK  &none         &kp LEFT_ARROW          &kp DOWN_ARROW              &kp RIGHT_ARROW           &kp PAGE_DOWN  &msc SCRL_DOWN  &tap2_macro LESS_THAN EQUAL  &tap2_macro GREATER_THAN EQUAL  &tap2_macro EXCLAMATION EQUAL   &none         &kp RIGHT_ALT
-                                                    &trans                      &trans                    &to 0          &to 0           &trans                       &trans
+                                                    &trans                      &trans                    &to 3          &to 4           &trans                       &trans
             >;
 
             label = "Num";
@@ -305,7 +305,7 @@
 &kp TILDE     &none            &kp HOME               &kp UP_ARROW            &kp END                 &kp PAGE_UP    &msc SCRL_UP    &tap2_macro LESS_THAN MINUS  &tap2_macro MINUS GREATER_THAN  &tap2_macro EQUAL GREATER_THAN   &none                  &none          &none  &none
 &kp ESC       &kp EXCLAMATION  &hml LEFT_GUI AT_SIGN  &hml LEFT_CONTROL HASH  &hml LEFT_SHIFT DOLLAR  &kp PERCENT    &kp CARET       &hmr RIGHT_SHIFT AMPERSAND   &hmr RIGHT_CONTROL ASTERISK     &hmr RIGHT_GUI LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ENTER
 &kp CAPSLOCK  &none            &kp LEFT_ARROW         &kp DOWN_ARROW          &kp RIGHT_ARROW         &kp PAGE_DOWN  &msc SCRL_DOWN  &tap2_macro LESS_THAN EQUAL  &tap2_macro GREATER_THAN EQUAL  &tap2_macro EXCLAMATION EQUAL    &none                  &kp RIGHT_ALT
-                                                      &trans                  &trans                  &to 0          &to 0           &trans                       &trans
+                                                      &trans                  &trans                  &to 3          &to 4           &trans                       &trans
             >;
 
             label = "Sym";
