@@ -51,8 +51,8 @@ layers:
   - HOME
   - $$mdi:arrow-up$$
   - END
-  - PgUp
-  - $$mdi:mouse-move-up$$
+  - ESCAPE
+  - ESCAPE
   - <-
   - ->
   - =>
@@ -77,8 +77,8 @@ layers:
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
-  - PgDn
-  - $$mdi:mouse-move-down$$
+  - {t: '''', h: '"', s: '"'}
+  - {t: \, h: '|', s: '|'}
   - <=
   - '>='
   - '!='
@@ -96,8 +96,8 @@ layers:
   - HOME
   - $$mdi:arrow-up$$
   - END
-  - PgUp
-  - $$mdi:mouse-move-up$$
+  - ESCAPE
+  - ESCAPE
   - <-
   - ->
   - =>
@@ -122,8 +122,8 @@ layers:
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
-  - PgDn
-  - $$mdi:mouse-move-down$$
+  - {t: '''', h: '"', s: '"'}
+  - {t: \, h: '|', s: '|'}
   - <=
   - '>='
   - '!='
