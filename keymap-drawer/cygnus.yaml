@@ -15,11 +15,11 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - ESC
+  - $$mdi:apple-keyboard-control$$
   - A
-  - {t: S, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - S
+  - D
+  - F
   - G
   - H
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
@@ -27,7 +27,7 @@ layers:
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ;, h: ':', s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -38,13 +38,13 @@ layers:
   - {t: ',', h: <, s: <}
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
-  - $$mdi:apple-keyboard-option$$
-  - {t: '''', h: '"', s: '"'}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - Num
   - Sym
   - {t: '$$mdi:backspace-outline$$', type: backspace}
-  - {t: \, h: '|', s: '|'}
+  - $$mdi:apple-keyboard-command$$
   Num:
   - {t: '`', s: '~'}
   - {type: none}
