@@ -60,7 +60,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - ESC
+  - {t: ▽, type: trans}
   - {t: '1', s: '!'}
   - {t: '2', h: '$$mdi:apple-keyboard-command$$', s: '@'}
   - {t: '3', h: '$$mdi:apple-keyboard-control$$', s: '#'}
@@ -71,8 +71,8 @@ layers:
   - {t: '8', h: '$$mdi:apple-keyboard-control$$', s: '*'}
   - {t: '9', h: '$$mdi:apple-keyboard-command$$', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: none}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
@@ -83,11 +83,11 @@ layers:
   - '>='
   - '!='
   - {type: none}
-  - $$mdi:apple-keyboard-option$$
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Fun, h: to, type: held}
-  - {t: Boot, h: to}
+  - {t: Qwer, h: to}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Sym:
@@ -105,7 +105,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - ESC
+  - {t: ▽, type: trans}
   - '!'
   - {t: '@', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '#', h: '$$mdi:apple-keyboard-control$$'}
@@ -116,8 +116,8 @@ layers:
   - {t: '*', h: '$$mdi:apple-keyboard-control$$'}
   - {t: (, h: '$$mdi:apple-keyboard-command$$'}
   - )
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: none}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
@@ -128,97 +128,52 @@ layers:
   - '>='
   - '!='
   - {type: none}
-  - $$mdi:apple-keyboard-option$$
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Fun, h: to}
-  - {t: Boot, h: to, type: held}
+  - {t: Qwer, h: to, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Fun:
-  - {type: none}
-  - {type: none}
-  - F1
-  - F2
-  - F3
-  - F4
-  - .
-  - '7'
-  - '8'
-  - '9'
-  - +
-  - '-'
-  - {type: none}
-  - {type: none}
-  - ESC
-  - $$mdi:apple-keyboard-option$$
-  - {t: F5, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: F6, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F7, h: '$$mdi:apple-keyboard-shift$$'}
-  - F8
-  - '='
-  - {t: '4', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '5', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '6', h: '$$mdi:apple-keyboard-command$$'}
-  - '*'
-  - /
-  - {type: none}
-  - {type: none}
-  - F9
-  - F10
-  - F11
-  - F12
-  - '0'
-  - '1'
-  - '2'
-  - '3'
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {t: Qwer, h: to}
-  - {t: Qwer, h: to}
-  - {type: none}
-  - {type: none}
-  Boot:
-  - $$mdi:download-circle$$
-  - {type: none}
   - {type: none}
   - $$mdi:brightness-4$$
   - $$mdi:brightness-5$$
   - {type: none}
   - {type: none}
-  - $$mdi:bluetooth-off$$
-  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-left$$'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-right$$'}
-  - {type: none}
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - $$mdi:play-pause$$
+  - $$mdi:skip-backward$$
+  - $$mdi:skip-forward$$
   - $$mdi:volume-mute$$
   - $$mdi:volume-minus$$
   - $$mdi:volume-plus$$
   - {type: none}
   - {type: none}
   - {type: none}
+  - {t: ▽, type: trans}
+  - F1
+  - {t: F2, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F3, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F4, h: '$$mdi:apple-keyboard-shift$$'}
+  - F5
+  - F6
+  - {t: F7, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: F8, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F9, h: '$$mdi:apple-keyboard-command$$'}
+  - F10
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-left$$'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-right$$'}
+  - {type: none}
+  - F11
+  - F12
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - $$mdi:play-pause$$
-  - $$mdi:skip-backward$$
-  - $$mdi:skip-forward$$
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - {type: none}
   - {t: Qwer, h: to}
