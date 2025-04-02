@@ -167,6 +167,13 @@
             timeout-ms = <42>;
             require-prior-idle-ms = <125>;
         };
+
+        bootloader {
+            bindings = <&dongle_bootload_macro>;
+            key-positions = <38 43>;
+            require-prior-idle-ms = <125>;
+            timeout-ms = <50>;
+        };
     };
 
     behaviors {
