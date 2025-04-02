@@ -12,7 +12,7 @@ layers:
   - I
   - O
   - P
-  - {type: none}
+  - $$mdi:apple-keyboard-option$$
   - {type: none}
   - {type: none}
   - $$mdi:apple-keyboard-control$$
@@ -38,7 +38,7 @@ layers:
   - {t: ',', h: <, s: <}
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:keyboard-space$$
   - Num
@@ -57,7 +57,7 @@ layers:
   - <-
   - ->
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
@@ -102,7 +102,7 @@ layers:
   - <-
   - ->
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
@@ -147,7 +147,7 @@ layers:
   - $$mdi:volume-mute$$
   - $$mdi:volume-minus$$
   - $$mdi:volume-plus$$
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
