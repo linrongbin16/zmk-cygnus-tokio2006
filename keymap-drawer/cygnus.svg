@@ -690,8 +690,8 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(542, 278) rotate(-30.0)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<a href="#Qwer">
-<text x="0" y="0" class="key tap layer-activator">Qwer</text>
+<a href="#Fun">
+<text x="0" y="0" class="key tap layer-activator">Fun</text>
 </a><text x="0" y="38" class="key hold">to</text>
 </g>
 <g transform="translate(610, 255) rotate(-30.0)" class="key trans keypos-42">
@@ -928,8 +928,8 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(542, 278) rotate(-30.0)" class="key held keypos-41">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key held"/>
-<a href="#Qwer">
-<text x="0" y="0" class="key held tap layer-activator">Qwer</text>
+<a href="#Fun">
+<text x="0" y="0" class="key held tap layer-activator">Fun</text>
 </a><text x="0" y="38" class="key held hold">to</text>
 </g>
 <g transform="translate(610, 255) rotate(-30.0)" class="key trans keypos-42">

@@ -87,7 +87,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Fun, h: to, type: held}
-  - {t: Qwer, h: to}
+  - {t: Fun, h: to}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Sym:
@@ -132,7 +132,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Fun, h: to}
-  - {t: Qwer, h: to, type: held}
+  - {t: Fun, h: to, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Fun:
