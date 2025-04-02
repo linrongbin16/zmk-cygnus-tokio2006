@@ -51,8 +51,8 @@ layers:
   - HOME
   - $$mdi:arrow-up$$
   - END
-  - ESCAPE
-  - ESCAPE
+  - ESC
+  - ESC
   - <-
   - ->
   - =>
@@ -96,8 +96,8 @@ layers:
   - HOME
   - $$mdi:arrow-up$$
   - END
-  - ESCAPE
-  - ESCAPE
+  - ESC
+  - ESC
   - <-
   - ->
   - =>
