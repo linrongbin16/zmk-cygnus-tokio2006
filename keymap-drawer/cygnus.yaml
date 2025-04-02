@@ -51,11 +51,11 @@ layers:
   - HOME
   - $$mdi:arrow-up$$
   - END
-  - ESC
-  - ESC
+  - {type: none}
+  - <=
+  - '>='
   - <-
   - ->
-  - =>
   - {type: none}
   - {type: none}
   - {type: none}
@@ -77,11 +77,11 @@ layers:
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
-  - {t: '''', h: '"', s: '"'}
+  - ESC
   - {t: \, h: '|', s: '|'}
-  - <=
-  - '>='
-  - '!='
+  - {t: '''', h: '"', s: '"'}
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -96,11 +96,11 @@ layers:
   - HOME
   - $$mdi:arrow-up$$
   - END
-  - ESC
-  - ESC
+  - {type: none}
+  - <=
+  - '>='
   - <-
   - ->
-  - =>
   - {type: none}
   - {type: none}
   - {type: none}
@@ -122,11 +122,11 @@ layers:
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
-  - {t: '''', h: '"', s: '"'}
+  - ESC
   - {t: \, h: '|', s: '|'}
-  - <=
-  - '>='
-  - '!='
+  - {t: '''', h: '"', s: '"'}
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
