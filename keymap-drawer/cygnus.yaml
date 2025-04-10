@@ -197,5 +197,5 @@ combos:
   k: +
 - p: [30, 31]
   k: '='
-- p: [43, 36, 41]
+- p: [36, 41]
   k: $$mdi:download-circle$$
