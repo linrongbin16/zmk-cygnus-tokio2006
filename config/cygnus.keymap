@@ -45,11 +45,11 @@
 
 / {
     macros {
-        dongle_bootload_macro: bootload_macro {
+        dongle_bootload_macro: dongle_bootload_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&bootloader>;
-            label = "BOOTLOAD_MACRO";
+            label = "DONGLE_BOOTLOAD_MACRO";
         };
 
         mo_macro: mo_macro {
