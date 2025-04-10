@@ -170,7 +170,7 @@
 
         bootloader {
             bindings = <&dongle_bootload_macro>;
-            key-positions = <43 36 41>;
+            key-positions = <43 38 39>;
             require-prior-idle-ms = <125>;
             timeout-ms = <50>;
         };
