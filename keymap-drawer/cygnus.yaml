@@ -15,7 +15,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - ESC
   - A
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
@@ -39,7 +39,7 @@ layers:
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-option$$
-  - ESC
+  - {t: '''', h: '"', s: '"'}
   - {t: '$$mdi:keyboard-space$$', h: Lay}
   - {t: '$$mdi:keyboard-tab$$', h: Fun}
   - {t: '$$mdi:keyboard-return$$', h: Num}
@@ -60,8 +60,8 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
+  - ESC
   - {type: none}
-  - {t: \, s: '|'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
@@ -86,7 +86,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: '''', s: '"'}
+  - {t: '`', s: '~'}
   - {type: held}
   - {type: none}
   - {type: none}
@@ -105,8 +105,8 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
+  - ESC
   - {type: none}
-  - '|'
   - $
   - '%'
   - ^
@@ -131,7 +131,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - '{'
   - '}'
-  - '"'
+  - '~'
   - {type: none}
   - {type: held}
   - {type: none}
