@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: cygnus}
 layers:
   Qwer:
-  - {type: none}
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -15,7 +15,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - ESC
+  - {type: none}
   - A
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
@@ -41,7 +41,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '''', h: '"', s: '"'}
   - {t: '$$mdi:keyboard-space$$', h: Lay}
-  - {t: '$$mdi:keyboard-tab$$', h: Fun}
+  - {t: ESC, h: Fun}
   - {t: '$$mdi:keyboard-return$$', h: Num}
   - {t: '$$mdi:backspace-outline$$', h: Sym}
   - {t: \, h: Nav, s: '|'}
@@ -60,7 +60,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - ESC
+  - {type: none}
   - {type: none}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
@@ -105,7 +105,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - ESC
+  - {type: none}
   - {type: none}
   - $
   - '%'
