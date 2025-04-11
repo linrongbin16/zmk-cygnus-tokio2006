@@ -40,7 +40,7 @@ layers:
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-option$$
   - {t: '''', h: '"', s: '"'}
-  - {t: '$$mdi:keyboard-space$$', h: Lay}
+  - {t: '$$mdi:keyboard-space$$', h: Media}
   - {t: ESC, h: Fun}
   - {t: '$$mdi:keyboard-return$$', h: Num}
   - {t: '$$mdi:backspace-outline$$', h: Sym}
@@ -192,7 +192,7 @@ layers:
   - F8
   - F9
   - {type: none}
-  - $$mdi:play-pause$$
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -205,8 +205,8 @@ layers:
   - F4
   - F5
   - F6
-  - $$mdi:skip-backward$$
-  - $$mdi:skip-forward$$
+  - {type: none}
+  - {type: none}
   - $$mdi:apple-keyboard-option$$
   - {type: none}
   - {type: none}
@@ -217,15 +217,15 @@ layers:
   - F1
   - F2
   - F3
-  - $$mdi:brightness-4$$
-  - $$mdi:brightness-5$$
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: held}
-  - $$mdi:volume-mute$$
-  - $$mdi:volume-minus$$
-  - $$mdi:volume-plus$$
-  Lay:
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  Media:
   - {type: none}
   - {type: none}
   - {type: none}
@@ -236,8 +236,8 @@ layers:
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-left$$'}
   - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-right$$'}
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {type: none}
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -247,9 +247,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - $$mdi:play-pause$$
+  - $$mdi:skip-backward$$
+  - $$mdi:skip-forward$$
   - {type: none}
   - {type: none}
   - $$mdi:apple-keyboard-option$$
@@ -258,12 +258,12 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
+  - $$mdi:brightness-4$$
+  - $$mdi:brightness-5$$
+  - $$mdi:volume-minus$$
+  - $$mdi:volume-plus$$
   - {type: none}
-  - {t: Qwer, h: to}
-  - {t: Num, h: to}
-  - {t: Fun, h: to}
-  - {t: Nav, h: to}
-  - {type: none}
+  - $$mdi:volume-mute$$
   - {type: none}
   - {type: held}
   - {type: none}
