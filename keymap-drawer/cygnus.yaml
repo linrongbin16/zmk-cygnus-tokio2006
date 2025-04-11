@@ -26,7 +26,7 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ;, h: ':', s: ':'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '''', h: '"', s: '"'}
   - $$mdi:apple-keyboard-caps$$
   - Z
   - X
@@ -39,19 +39,19 @@ layers:
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-option$$
-  - {t: '''', h: '"', s: '"'}
-  - $$mdi:keyboard-space$$
-  - Num
-  - Sym
-  - {t: '$$mdi:backspace-outline$$', type: backspace}
+  - ESC
+  - {t: '$$mdi:keyboard-space$$', h: Fun}
+  - {t: '$$mdi:keyboard-tab$$', h: Nav}
+  - {t: '$$mdi:keyboard-return$$', h: Sym}
+  - {t: '$$mdi:backspace-outline$$', h: Num}
   - {t: \, h: '|', s: '|'}
   Num:
   - {t: '`', s: '~'}
   - {type: none}
-  - HOME
-  - $$mdi:arrow-up$$
-  - END
-  - PgUp
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
   - $$mdi:mouse-move-up$$
   - <-
   - ->
@@ -60,43 +60,43 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: ▽, type: trans}
+  - {type: none}
   - {t: '1', s: '!'}
-  - {t: '2', h: '$$mdi:apple-keyboard-command$$', s: '@'}
-  - {t: '3', h: '$$mdi:apple-keyboard-control$$', s: '#'}
-  - {t: '4', h: '$$mdi:apple-keyboard-shift$$', s: $}
+  - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - {t: '7', h: '$$mdi:apple-keyboard-shift$$', s: '&'}
-  - {t: '8', h: '$$mdi:apple-keyboard-control$$', s: '*'}
-  - {t: '9', h: '$$mdi:apple-keyboard-command$$', s: (}
+  - {t: '-', s: _}
+  - {t: '6', s: ^}
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
   - {t: '0', s: )}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: none}
-  - $$mdi:arrow-left$$
-  - $$mdi:arrow-down$$
-  - $$mdi:arrow-right$$
-  - PgDn
+  - {type: none}
+  - {type: none}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '=', s: +}
   - $$mdi:mouse-move-down$$
   - <=
   - '>='
   - '!='
   - {type: none}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Fun, h: to, type: held}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {t: Fun, h: to}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: Fun, h: to}
+  - {type: held}
+  - {type: none}
   Sym:
   - '~'
   - {type: none}
-  - HOME
-  - $$mdi:arrow-up$$
-  - END
-  - PgUp
+  - '&'
+  - '*'
+  - (
+  - )
   - $$mdi:mouse-move-up$$
   - <-
   - ->
@@ -105,36 +105,36 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: ▽, type: trans}
+  - {type: none}
   - '!'
-  - {t: '@', h: '$$mdi:apple-keyboard-command$$'}
-  - {t: '#', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: $, h: '$$mdi:apple-keyboard-shift$$'}
+  - $
   - '%'
+  - ^
+  - _
   - ^
   - {t: '&', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '*', h: '$$mdi:apple-keyboard-control$$'}
   - {t: (, h: '$$mdi:apple-keyboard-command$$'}
   - )
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: none}
-  - $$mdi:arrow-left$$
-  - $$mdi:arrow-down$$
-  - $$mdi:arrow-right$$
-  - PgDn
+  - {type: none}
+  - {type: none}
+  - '!'
+  - '@'
+  - '#'
+  - +
   - $$mdi:mouse-move-down$$
   - <=
   - '>='
   - '!='
   - {type: none}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {t: Fun, h: to}
   - {t: Fun, h: to, type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: none}
+  - {type: none}
   Fun:
   - {type: none}
   - $$mdi:brightness-4$$
@@ -175,9 +175,54 @@ layers:
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {t: ▽, type: trans}
   - {type: none}
+  - {type: held}
+  - {t: Qwer, h: to}
+  - {t: Qwer, h: to}
   - {type: none}
-  - {t: Qwer, h: to}
-  - {t: Qwer, h: to}
+  - {type: none}
+  Nav:
+  - {type: none}
+  - {type: none}
+  - HOME
+  - $$mdi:arrow-up$$
+  - END
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-right$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: held}
+  - {type: none}
   - {type: none}
   - {type: none}
 combos:
