@@ -338,6 +338,18 @@ parse_config:
     "&msc SCRL_DOWN":
       tap: $$mdi:mouse-move-down$$
 
+    # System
+    "&kp LG(Z)":
+      tap: UNDO
+    "&kp LG(R)":
+      tap: REDO
+    "&kp LG(C)":
+      tap: COPY
+    "&kp LG(X)":
+      tap: CUT
+    "&kp LG(V)":
+      tap: PASTE
+
   # ZMK
   zmk_keycode_map:
     # Defaults
