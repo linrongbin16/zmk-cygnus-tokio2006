@@ -41,10 +41,10 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - ESC
   - {t: '$$mdi:keyboard-space$$', h: Fun}
-  - {t: '$$mdi:keyboard-tab$$', h: Nav}
+  - {t: '$$mdi:keyboard-tab$$', h: Lay}
   - {t: '$$mdi:keyboard-return$$', h: Sym}
   - {t: '$$mdi:backspace-outline$$', h: Num}
-  - {t: \, h: '|', s: '|'}
+  - {t: \, h: Nav, s: '|'}
   Num:
   - {t: '`', s: '~'}
   - {type: none}
@@ -61,7 +61,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: \, s: '|'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
@@ -106,7 +106,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - '|'
   - $
   - '%'
   - ^
@@ -142,10 +142,10 @@ layers:
   - {type: none}
   - {type: none}
   - $$mdi:play-pause$$
-  - $$mdi:skip-backward$$
-  - $$mdi:skip-forward$$
-  - $$mdi:volume-mute$$
-  - $$mdi:volume-minus$$
+  - F10
+  - F7
+  - F8
+  - F9
   - $$mdi:volume-plus$$
   - {type: none}
   - {type: none}
@@ -156,10 +156,10 @@ layers:
   - {t: F3, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F4, h: '$$mdi:apple-keyboard-shift$$'}
   - F5
+  - F11
+  - F4
+  - F5
   - F6
-  - {t: F7, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F8, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F9, h: '$$mdi:apple-keyboard-command$$'}
   - F10
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -169,24 +169,24 @@ layers:
   - {type: none}
   - F11
   - F12
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - F1
+  - F2
+  - F3
   - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
   - {t: ▽, type: trans}
   - {type: none}
   - {type: held}
-  - {t: Qwer, h: to}
+  - {type: none}
   - {t: Qwer, h: to}
   - {type: none}
   - {type: none}
   Nav:
   - {type: none}
   - {type: none}
-  - HOME
-  - $$mdi:arrow-up$$
-  - END
   - {type: none}
+  - $$mdi:arrow-up$$
+  - Gui+R
+  - PgUp
   - {type: none}
   - {type: none}
   - {type: none}
@@ -208,6 +208,24 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - PgDn
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - HOME
+  - END
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: held}
+  Lay:
   - {type: none}
   - {type: none}
   - {type: none}
@@ -217,6 +235,33 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {t: Nav, h: to}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {t: Qwer, h: to}
+  - {t: Num, h: to}
+  - {t: Fun, h: to}
   - {type: none}
   - {type: none}
   - {type: none}
