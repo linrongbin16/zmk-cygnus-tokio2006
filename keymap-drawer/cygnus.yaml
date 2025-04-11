@@ -185,7 +185,7 @@ layers:
   - {type: none}
   - {type: none}
   - $$mdi:arrow-up$$
-  - Gui+R
+  - REDO
   - PgUp
   - {type: none}
   - {type: none}
@@ -208,10 +208,10 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - Gui+Z
-  - Gui+X
-  - Gui+C
-  - Gui+V
+  - UNDO
+  - CUT
+  - COPY
+  - PASTE
   - PgDn
   - {type: none}
   - {type: none}
