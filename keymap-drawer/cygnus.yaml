@@ -40,10 +40,10 @@ layers:
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-option$$
   - ESC
-  - {t: '$$mdi:keyboard-space$$', h: Fun}
-  - {t: '$$mdi:keyboard-tab$$', h: Lay}
-  - {t: '$$mdi:keyboard-return$$', h: Sym}
-  - {t: '$$mdi:backspace-outline$$', h: Num}
+  - {t: '$$mdi:keyboard-space$$', h: Lay}
+  - {t: '$$mdi:keyboard-tab$$', h: Fun}
+  - {t: '$$mdi:keyboard-return$$', h: Num}
+  - {t: '$$mdi:backspace-outline$$', h: Sym}
   - {t: \, h: Nav, s: '|'}
   Num:
   - {t: '`', s: '~'}
@@ -87,8 +87,8 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '''', s: '"'}
-  - {type: none}
   - {type: held}
+  - {type: none}
   - {type: none}
   Sym:
   - '~'
@@ -132,8 +132,8 @@ layers:
   - '{'
   - '}'
   - '"'
-  - {type: held}
   - {type: none}
+  - {type: held}
   - {type: none}
   Nav:
   - {type: none}
@@ -220,8 +220,8 @@ layers:
   - $$mdi:brightness-4$$
   - $$mdi:brightness-5$$
   - {type: none}
-  - {type: held}
   - {type: none}
+  - {type: held}
   - $$mdi:volume-mute$$
   - $$mdi:volume-minus$$
   - $$mdi:volume-plus$$
@@ -265,8 +265,8 @@ layers:
   - {t: Nav, h: to}
   - {type: none}
   - {type: none}
-  - {type: none}
   - {type: held}
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
