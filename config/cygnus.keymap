@@ -51,21 +51,6 @@
             label = "BOOTLOAD_MACRO";
         };
 
-        mo_macro: mo_macro {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings =
-                <&macro_param_1to1>,
-                <&macro_press>,
-                <&mo MACRO_PLACEHOLDER>,
-                <&macro_pause_for_release>,
-                <&macro_param_1to1>,
-                <&macro_release>,
-                <&mo MACRO_PLACEHOLDER>;
-
-            label = "MO_MACRO";
-        };
-
         tap2_macro: tap2_macro {
             compatible = "zmk,behavior-macro-two-param";
             #binding-cells = <2>;
@@ -197,7 +182,7 @@
 &none         &kp Q  &kp W            &kp E                &kp R               &kp T         &kp Y           &kp U                &kp I                 &kp O                 &kp P               &none          &none  &none
 &none         &kp A  &hml LEFT_GUI S  &hml LEFT_CONTROL D  &hmlf LEFT_SHIFT F  &kp G         &kp H           &hmrj RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L      &as COLON SEMI      &none
 &kp CAPSLOCK  &kp Z  &kp X            &kp C                &kp V               &kp B         &kp N           &kp M                &as LESS_THAN COMMA   &as GREATER_THAN DOT  &as QUESTION SLASH  &kp RIGHT_ALT
-                                      &kp ESC              &tpmol 3 SPACE      &tpmol 5 TAB  &tpmor 2 ENTER  &tpmor 1 BACKSPACE   &tpmor 4 BACKSLASH
+                                      &kp ESC              &tpmol 4 SPACE      &tpmol 5 TAB  &tpmor 2 ENTER  &tpmor 1 BACKSPACE   &tpmor 3 BACKSLASH
             >;
 
             label = "Qwer";
@@ -225,17 +210,6 @@
             label = "Sym";
         };
 
-        Fun {
-            bindings = <
-&none         &none  &none         &none             &none           &none  &kp F10     &kp F7             &kp F8           &kp F9  &none                 &kp C_PLAY_PAUSE      &none  &none
-&none         &none  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none  &kp F11     &kp F4             &kp F5           &kp F6  &kp C_PREVIOUS        &kp C_NEXT
-&kp LEFT_ALT  &none  &none         &none             &none           &none  &kp F12     &kp F1             &kp F2           &kp F3  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
-                                   &none             &none           &none  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
-            >;
-
-            label = "Fun";
-        };
-
         Nav {
             bindings = <
 &none  &none      &none           &kp UP_ARROW    &kp LG(R)        &kp PAGE_UP    &none  &none            &none              &none          &none  &none          &none  &none
@@ -247,11 +221,22 @@
             label = "Nav";
         };
 
+        Fun {
+            bindings = <
+&none         &none  &none         &none             &none           &none  &kp F10     &kp F7             &kp F8           &kp F9  &none                 &kp C_PLAY_PAUSE      &none  &none
+&none         &none  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none  &kp F11     &kp F4             &kp F5           &kp F6  &kp C_PREVIOUS        &kp C_NEXT
+&kp LEFT_ALT  &none  &none         &none             &none           &none  &kp F12     &kp F1             &kp F2           &kp F3  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
+                                   &none             &none           &none  &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP
+            >;
+
+            label = "Fun";
+        };
+
         Lay {
             bindings = <
 &none         &none  &none         &none             &none           &none  &none  &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &out OUT_TOG  &none  &none  &none
 &none         &none  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none  &none  &none       &none       &none       &none         &none
-&kp LEFT_ALT  &none  &none         &none             &none           &none  &none  &to 0       &to 1       &to 3       &to 4         &none
+&kp LEFT_ALT  &none  &none         &none             &none           &none  &none  &to 0       &to 1       &to 4       &to 3         &none
                                    &none             &none           &none  &none  &none       &none
             >;
 
