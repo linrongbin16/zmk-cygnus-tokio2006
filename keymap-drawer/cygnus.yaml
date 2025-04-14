@@ -91,22 +91,22 @@ layers:
   - {type: none}
   - {type: none}
   Sym:
-  - '!='
-  - =>
+  - {type: none}
+  - {type: none}
   - '&'
   - '*'
   - (
   - )
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
   - <-
   - ->
+  - =>
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - $
   - '%'
   - ^
@@ -117,16 +117,16 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {type: none}
   - {type: none}
-  - <=
-  - '>='
+  - {type: none}
+  - {type: none}
   - '!'
   - '@'
   - '#'
   - +
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - <=
+  - '>='
+  - '!='
   - {type: none}
   - $$mdi:apple-keyboard-option$$
   - '{'
