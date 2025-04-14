@@ -46,22 +46,22 @@ layers:
   - {t: '$$mdi:backspace-outline$$', h: Sym}
   - {t: \, h: Nav, s: '|'}
   Num:
-  - '!='
-  - =>
+  - {type: none}
+  - {type: none}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
   - <-
   - ->
+  - =>
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
@@ -72,16 +72,16 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - {type: none}
   - {type: none}
-  - <=
-  - '>='
+  - {type: none}
+  - {type: none}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - {t: '=', s: +}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - <=
+  - '>='
+  - '!='
   - {type: none}
   - $$mdi:apple-keyboard-option$$
   - {t: '[', s: '{'}
