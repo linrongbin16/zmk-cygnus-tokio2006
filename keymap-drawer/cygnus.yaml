@@ -42,9 +42,9 @@ layers:
   - {t: '''', h: '"', s: '"'}
   - {t: '$$mdi:keyboard-space$$', h: Media}
   - {t: ESC, h: Fun}
-  - {t: '$$mdi:keyboard-return$$', h: Num}
-  - {t: '$$mdi:backspace-outline$$', h: Sym}
-  - {t: \, h: Nav, s: '|'}
+  - {t: '$$mdi:keyboard-return$$', h: Nav}
+  - {t: '$$mdi:backspace-outline$$', h: Num}
+  - {t: \, h: Sym, s: '|'}
   Num:
   - {t: '`', s: '~'}
   - {type: none}
@@ -87,8 +87,8 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '`', s: '~'}
-  - {type: held}
   - {type: none}
+  - {type: held}
   - {type: none}
   Sym:
   - '~'
@@ -133,8 +133,8 @@ layers:
   - '}'
   - '~'
   - {type: none}
-  - {type: held}
   - {type: none}
+  - {type: held}
   Nav:
   - {type: none}
   - {type: none}
@@ -177,9 +177,9 @@ layers:
   - HOME
   - END
   - {type: none}
-  - {type: none}
-  - {type: none}
   - {type: held}
+  - {type: none}
+  - {type: none}
   Fun:
   - {type: none}
   - {type: none}
