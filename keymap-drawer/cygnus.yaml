@@ -44,7 +44,7 @@ layers:
   - {t: ESC, h: Fun}
   - {t: '$$mdi:keyboard-return$$', h: Num}
   - {t: '$$mdi:backspace-outline$$', h: Sym}
-  - Nav
+  - {t: \, h: Nav, s: '|'}
   Num:
   - {t: '`', s: '~'}
   - {type: none}
@@ -86,7 +86,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: \, s: '|'}
+  - {t: '`', s: '~'}
   - {type: held}
   - {type: none}
   - {type: none}
@@ -131,7 +131,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - '{'
   - '}'
-  - '|'
+  - '~'
   - {type: none}
   - {type: held}
   - {type: none}
