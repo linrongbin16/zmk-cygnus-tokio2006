@@ -139,10 +139,12 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:arrow-up$$
-  - REDO
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - PgUp
   - {type: none}
+  - $$mdi:arrow-up$$
   - {type: none}
   - {type: none}
   - {type: none}
@@ -150,6 +152,9 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - {type: none}
   - {type: none}
   - $$mdi:arrow-left$$
@@ -157,29 +162,24 @@ layers:
   - $$mdi:arrow-right$$
   - {type: none}
   - {type: none}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
   - {type: none}
   - {type: none}
   - {type: none}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - {type: none}
+  - {type: none}
   - PgDn
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:apple-keyboard-option$$
-  - HOME
-  - END
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {type: held}
-  - {type: none}
-  - {type: none}
+  - HOME
+  - END
   Fun:
   - {type: none}
   - {type: none}
