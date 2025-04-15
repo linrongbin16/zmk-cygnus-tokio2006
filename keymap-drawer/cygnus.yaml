@@ -142,9 +142,9 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - PgUp
   - {type: none}
-  - $$mdi:arrow-up$$
+  - {type: none}
+  - PgUp
   - {type: none}
   - {type: none}
   - {type: none}
@@ -156,9 +156,9 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
   - {type: none}
-  - {type: none}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
+  - $$mdi:arrow-up$$
   - $$mdi:arrow-right$$
   - {type: none}
   - {type: none}
@@ -168,9 +168,9 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
+  - {type: none}
+  - {type: none}
   - PgDn
-  - {type: none}
-  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
