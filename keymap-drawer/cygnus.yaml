@@ -46,7 +46,7 @@ layers:
   - {t: '$$mdi:backspace-outline$$', h: Sym}
   - {t: \, h: '|', s: '|'}
   Num:
-  - {t: '`', s: '~'}
+  - {type: none}
   - {type: none}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -91,7 +91,7 @@ layers:
   - {type: none}
   - {type: none}
   Sym:
-  - '~'
+  - {type: none}
   - {type: none}
   - '&'
   - '*'
