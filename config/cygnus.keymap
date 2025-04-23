@@ -179,10 +179,10 @@
 
         Qwer {
             bindings = <
-&kp TAB       &kp Q  &kp W            &kp E                  &kp R               &kp T         &kp Y           &kp U                &kp I                 &kp O                 &kp P               &none          &none  &none
-&none         &kp A  &hml LEFT_GUI S  &hml LEFT_CONTROL D    &hmlf LEFT_SHIFT F  &kp G         &kp H           &hmrj RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L      &as COLON SEMI      &none
-&kp CAPSLOCK  &kp Z  &kp X            &kp C                  &kp V               &kp B         &kp N           &kp M                &as LESS_THAN COMMA   &as GREATER_THAN DOT  &as QUESTION SLASH  &kp RIGHT_ALT
-                                      &tpmol 5 SINGLE_QUOTE  &tpmol 4 SPACE      &tpmol 3 ESC  &tpmor 1 ENTER  &tpmor 2 BACKSPACE   &as PIPE BACKSLASH
+&kp TAB       &kp Q  &kp W            &kp E                           &kp R               &kp T         &kp Y           &kp U                &kp I                 &kp O                 &kp P               &none          &none  &none
+&none         &kp A  &hml LEFT_GUI S  &hml LEFT_CONTROL D             &hmlf LEFT_SHIFT F  &kp G         &kp H           &hmrj RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_GUI L      &as COLON SEMI      &none
+&kp CAPSLOCK  &kp Z  &kp X            &kp C                           &kp V               &kp B         &kp N           &kp M                &as LESS_THAN COMMA   &as GREATER_THAN DOT  &as QUESTION SLASH  &kp RIGHT_ALT
+                                      &as DOUBLE_QUOTES SINGLE_QUOTE  &tpmol 5 SPACE      &tpmol 4 ESC  &tpmor 3 ENTER  &tpmor 1 BACKSPACE   &tpmor 2 BACKSLASH
             >;
 
             label = "Qwer";
@@ -212,10 +212,10 @@
 
         Nav {
             bindings = <
-&none         &none  &none         &none             &none           &none  &none           &none           &kp PAGE_UP    &none            &none  &none  &none  &none
-&none         &none  &kp LEFT_GUI  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW   &kp RIGHT_ARROW  &none  &none
-&kp LEFT_ALT  &none  &none         &none             &none           &none  &none           &none           &kp PAGE_DOWN  &none            &none  &none
-                                   &none             &none           &none  &none           &kp HOME        &kp END
+&none  &none  &none           &kp UP_ARROW    &none            &kp PAGE_UP    &none  &none            &none              &none          &none  &none          &none  &none
+&none  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none          &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_GUI  &none  &none
+&none  &none  &none           &none           &none            &kp PAGE_DOWN  &none  &none            &none              &none          &none  &kp RIGHT_ALT
+                              &kp HOME        &kp END          &none          &none  &none            &none
             >;
 
             label = "Nav";
