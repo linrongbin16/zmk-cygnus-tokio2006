@@ -39,12 +39,12 @@ layers:
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-option$$
-  - {t: '''', h: Media, s: '"'}
-  - {t: '$$mdi:keyboard-space$$', h: Fun}
-  - {t: ESC, h: Nav}
-  - {t: '$$mdi:keyboard-return$$', h: Num}
-  - {t: '$$mdi:backspace-outline$$', h: Sym}
-  - {t: \, h: '|', s: '|'}
+  - {t: '''', h: '"', s: '"'}
+  - {t: '$$mdi:keyboard-space$$', h: Media}
+  - {t: ESC, h: Fun}
+  - {t: '$$mdi:keyboard-return$$', h: Nav}
+  - {t: '$$mdi:backspace-outline$$', h: Num}
+  - {t: \, h: Sym, s: '|'}
   Num:
   - {type: none}
   - {type: none}
@@ -87,8 +87,8 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '`', s: '~'}
-  - {type: held}
   - {type: none}
+  - {type: held}
   - {type: none}
   Sym:
   - {type: none}
@@ -133,16 +133,13 @@ layers:
   - '}'
   - '~'
   - {type: none}
-  - {type: held}
   - {type: none}
+  - {type: held}
   Nav:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - $$mdi:arrow-up$$
   - {type: none}
   - PgUp
   - {type: none}
@@ -152,17 +149,17 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - {type: none}
+  - {type: none}
   - {type: none}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
-  - $$mdi:arrow-up$$
   - $$mdi:arrow-right$$
   - {type: none}
   - {type: none}
-  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-command$$
   - {type: none}
   - {type: none}
   - {type: none}
@@ -176,10 +173,13 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: held}
-  - {type: none}
+  - $$mdi:apple-keyboard-option$$
   - HOME
   - END
+  - {type: none}
+  - {type: held}
+  - {type: none}
+  - {type: none}
   Fun:
   - {type: none}
   - {type: none}
@@ -220,8 +220,8 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: held}
   - {type: none}
+  - {type: held}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -264,8 +264,8 @@ layers:
   - $$mdi:volume-plus$$
   - {type: none}
   - $$mdi:volume-mute$$
-  - {type: held}
   - {type: none}
+  - {type: held}
   - {type: none}
   - {type: none}
   - {type: none}
