@@ -39,12 +39,12 @@ layers:
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-option$$
-  - {t: '''', h: '"', s: '"'}
-  - {t: '$$mdi:keyboard-space$$', h: Media}
-  - {t: ESC, h: Fun}
-  - {t: '$$mdi:keyboard-return$$', h: Nav}
-  - {t: '$$mdi:backspace-outline$$', h: Num}
-  - {t: \, h: Sym, s: '|'}
+  - {t: '''', h: Media, s: '"'}
+  - {t: '$$mdi:keyboard-space$$', h: Fun}
+  - {t: ESC, h: Nav}
+  - {t: '$$mdi:keyboard-return$$', h: Num}
+  - {t: '$$mdi:backspace-outline$$', h: Sym}
+  - {t: \, h: '|', s: '|'}
   Num:
   - {type: none}
   - {type: none}
@@ -87,8 +87,8 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - {t: '`', s: '~'}
-  - {type: none}
   - {type: held}
+  - {type: none}
   - {type: none}
   Sym:
   - {type: none}
@@ -133,14 +133,14 @@ layers:
   - '}'
   - '~'
   - {type: none}
-  - {type: none}
   - {type: held}
+  - {type: none}
   Nav:
   - {type: none}
   - {type: none}
-  - {type: none}
+  - HOME
   - $$mdi:arrow-up$$
-  - {type: none}
+  - END
   - PgUp
   - {type: none}
   - {type: none}
@@ -174,10 +174,10 @@ layers:
   - {type: none}
   - {type: none}
   - $$mdi:apple-keyboard-option$$
-  - HOME
-  - END
+  - {type: none}
   - {type: none}
   - {type: held}
+  - {type: none}
   - {type: none}
   - {type: none}
   Fun:
@@ -220,8 +220,8 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
   - {type: held}
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -264,8 +264,8 @@ layers:
   - $$mdi:volume-plus$$
   - {type: none}
   - $$mdi:volume-mute$$
-  - {type: none}
   - {type: held}
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
