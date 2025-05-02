@@ -140,7 +140,7 @@ layers:
   - {type: none}
   - {type: none}
   - $$mdi:arrow-up$$
-  - REDO
+  - Gui+R
   - PgUp
   - {type: none}
   - {type: none}
@@ -163,10 +163,10 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - UNDO
-  - CUT
-  - COPY
-  - PASTE
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
   - PgDn
   - {type: none}
   - {type: none}
