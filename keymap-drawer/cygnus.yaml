@@ -138,9 +138,9 @@ layers:
   Nav:
   - {type: none}
   - {type: none}
-  - HOME
+  - {type: none}
   - $$mdi:arrow-up$$
-  - END
+  - REDO
   - PgUp
   - {type: none}
   - {type: none}
@@ -151,11 +151,11 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - HOME
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
-  - {type: none}
+  - END
   - {type: none}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
@@ -163,10 +163,10 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - UNDO
+  - CUT
+  - COPY
+  - PASTE
   - PgDn
   - {type: none}
   - {type: none}
