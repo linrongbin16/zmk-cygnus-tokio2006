@@ -138,10 +138,11 @@ layers:
   Nav:
   - {type: none}
   - {type: none}
-  - {type: none}
+  - HOME
   - $$mdi:arrow-up$$
   - Gui+R
-  - PgUp
+  - END
+  - Gui+Y
   - {type: none}
   - {type: none}
   - {type: none}
@@ -150,12 +151,11 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - HOME
+  - Gui+A
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
-  - END
+  - PgUp
   - {type: none}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
