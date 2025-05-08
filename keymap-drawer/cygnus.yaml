@@ -245,11 +245,8 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - $$mdi:brightness-5$$
-  - $$mdi:play-pause$$
-  - $$mdi:skip-backward$$
-  - $$mdi:skip-forward$$
+  - $$mdi:download-circle$$
+  - $$mdi:download-circle$$
   - {type: none}
   - {type: none}
   - {type: none}
@@ -258,10 +255,13 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:brightness-4$$
-  - $$mdi:volume-mute$$
-  - $$mdi:volume-minus$$
-  - $$mdi:volume-plus$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {t: Qwer-Win, h: to}
   - {type: held}
@@ -515,11 +515,8 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
-  - $$mdi:brightness-5$$
-  - $$mdi:play-pause$$
-  - $$mdi:skip-backward$$
-  - $$mdi:skip-forward$$
+  - $$mdi:download-circle$$
+  - $$mdi:download-circle$$
   - {type: none}
   - {type: none}
   - {type: none}
@@ -528,10 +525,13 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:brightness-4$$
-  - $$mdi:volume-mute$$
-  - $$mdi:volume-minus$$
-  - $$mdi:volume-plus$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {t: Qwer-Mac, h: to}
   - {type: held}
