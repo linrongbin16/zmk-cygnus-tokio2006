@@ -242,9 +242,9 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
   - {type: none}
   - $$mdi:brightness-5$$
   - $$mdi:play-pause$$
@@ -252,7 +252,7 @@ layers:
   - $$mdi:skip-forward$$
   - {type: none}
   - {type: none}
-  - $$mdi:apple-keyboard-option$$
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
