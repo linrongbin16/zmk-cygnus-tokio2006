@@ -16,6 +16,6 @@ manifest:
       revision: main
     - name: zmk-dongle-display
       remote: englmaxi
-      revision: long-labels
+      revision: main
   self:
     path: config
