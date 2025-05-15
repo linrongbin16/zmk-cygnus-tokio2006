@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: cygnus}
 layers:
-  Qwer-Mac:
+  QweMac:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -39,13 +39,13 @@ layers:
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-option$$
-  - {t: '''', h: Media-Mac, s: '"'}
-  - {t: '$$mdi:keyboard-space$$', h: Fun-Mac}
-  - {t: ESC, h: Nav-Mac}
-  - {t: '$$mdi:keyboard-return$$', h: Num-Mac}
-  - {t: '$$mdi:backspace-outline$$', h: Sym-Mac}
+  - {t: '''', h: MedMac, s: '"'}
+  - {t: '$$mdi:keyboard-space$$', h: FunMac}
+  - {t: ESC, h: NavMac}
+  - {t: '$$mdi:keyboard-return$$', h: NumMac}
+  - {t: '$$mdi:backspace-outline$$', h: SymMac}
   - {t: \, h: '|', s: '|'}
-  Num-Mac:
+  NumMac:
   - {type: none}
   - {type: none}
   - {t: '7', s: '&'}
@@ -90,7 +90,7 @@ layers:
   - {type: held}
   - {type: none}
   - {type: none}
-  Sym-Mac:
+  SymMac:
   - {type: none}
   - {type: none}
   - '&'
@@ -135,7 +135,7 @@ layers:
   - {type: none}
   - {type: held}
   - {type: none}
-  Nav-Mac:
+  NavMac:
   - {type: none}
   - {type: none}
   - HOME
@@ -180,7 +180,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  Fun-Mac:
+  FunMac:
   - {type: none}
   - {type: none}
   - {type: none}
@@ -225,7 +225,7 @@ layers:
   - {type: none}
   - $$mdi:backspace-reverse$$
   - {type: none}
-  Media-Mac:
+  MedMac:
   - {type: none}
   - {type: none}
   - {type: none}
@@ -263,14 +263,14 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: Qwer-Win, h: to}
+  - {t: QweWin, h: to}
   - {type: held}
   - {type: none}
   - {type: none}
   - {type: none}
   - $$mdi:backspace-reverse$$
   - {type: none}
-  Qwer-Win:
+  QweWin:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -309,13 +309,13 @@ layers:
   - {t: ., h: '>', s: '>'}
   - {t: /, h: '?', s: '?'}
   - $$mdi:apple-keyboard-command$$
-  - {t: '''', h: Media-Win, s: '"'}
-  - {t: '$$mdi:keyboard-space$$', h: Fun-Win}
-  - {t: ESC, h: Nav-Win}
-  - {t: '$$mdi:keyboard-return$$', h: Num-Win}
-  - {t: '$$mdi:backspace-outline$$', h: Sym-Win}
+  - {t: '''', h: MedWin, s: '"'}
+  - {t: '$$mdi:keyboard-space$$', h: FunWin}
+  - {t: ESC, h: NavWin}
+  - {t: '$$mdi:keyboard-return$$', h: NumWin}
+  - {t: '$$mdi:backspace-outline$$', h: SymWin}
   - {t: \, h: '|', s: '|'}
-  Num-Win:
+  NumWin:
   - {type: none}
   - {type: none}
   - {t: '7', s: '&'}
@@ -360,7 +360,7 @@ layers:
   - {type: held}
   - {type: none}
   - {type: none}
-  Sym-Win:
+  SymWin:
   - {type: none}
   - {type: none}
   - '&'
@@ -405,7 +405,7 @@ layers:
   - {type: none}
   - {type: held}
   - {type: none}
-  Nav-Win:
+  NavWin:
   - {type: none}
   - {type: none}
   - HOME
@@ -450,7 +450,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  Fun-Win:
+  FunWin:
   - {type: none}
   - {type: none}
   - {type: none}
@@ -495,7 +495,7 @@ layers:
   - {type: none}
   - $$mdi:backspace-reverse$$
   - {type: none}
-  Media-Win:
+  MedWin:
   - {type: none}
   - {type: none}
   - {type: none}
@@ -533,7 +533,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {t: Qwer-Mac, h: to}
+  - {t: QweMac, h: to}
   - {type: held}
   - {type: none}
   - {type: none}

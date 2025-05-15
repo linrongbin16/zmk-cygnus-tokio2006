@@ -220,8 +220,8 @@ rect.held, rect.combo.held {
     fill: #ffc;
 }
 </style>
-<g transform="translate(40, 0)" class="layer-Qwer-Mac">
-<text x="0" y="28" class="label" id="Qwer-Mac">Qwer-Mac:</text>
+<g transform="translate(40, 0)" class="layer-QweMac">
+<text x="0" y="28" class="label" id="QweMac">QweMac:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -387,33 +387,33 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 231)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&#x27;</text>
-<a href="#Media-Mac">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 67%">Media-Mac</tspan></text>
+<a href="#MedMac">
+<text x="0" y="24" class="key hold layer-activator">MedMac</text>
 </a><text x="0" y="-24" class="key shifted">&quot;</text>
 </g>
 <g transform="translate(314, 255) rotate(30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
-<a href="#Fun-Mac">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 86%">Fun-Mac</tspan></text>
+<a href="#FunMac">
+<text x="0" y="24" class="key hold layer-activator">FunMac</text>
 </a></g>
 <g transform="translate(382, 278) rotate(30.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
-<a href="#Nav-Mac">
-<text x="0" y="38" class="key hold layer-activator"><tspan style="font-size: 86%">Nav-Mac</tspan></text>
+<a href="#NavMac">
+<text x="0" y="38" class="key hold layer-activator">NavMac</text>
 </a></g>
 <g transform="translate(542, 278) rotate(-30.0)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-return"/>
-<a href="#Num-Mac">
-<text x="0" y="38" class="key hold layer-activator"><tspan style="font-size: 86%">Num-Mac</tspan></text>
+<a href="#NumMac">
+<text x="0" y="38" class="key hold layer-activator">NumMac</text>
 </a></g>
 <g transform="translate(610, 255) rotate(-30.0)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:backspace-outline"/>
-<a href="#Sym-Mac">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 86%">Sym-Mac</tspan></text>
+<a href="#SymMac">
+<text x="0" y="24" class="key hold layer-activator">SymMac</text>
 </a></g>
 <g transform="translate(672, 231)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -429,8 +429,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 384)" class="layer-Num-Mac">
-<text x="0" y="28" class="label" id="Num-Mac">Num-Mac:</text>
+<g transform="translate(40, 384)" class="layer-NumMac">
+<text x="0" y="28" class="label" id="NumMac">NumMac:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key none keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -612,8 +612,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 768)" class="layer-Sym-Mac">
-<text x="0" y="28" class="label" id="Sym-Mac">Sym-Mac:</text>
+<g transform="translate(40, 768)" class="layer-SymMac">
+<text x="0" y="28" class="label" id="SymMac">SymMac:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key none keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -780,8 +780,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1153)" class="layer-Nav-Mac">
-<text x="0" y="28" class="label" id="Nav-Mac">Nav-Mac:</text>
+<g transform="translate(40, 1153)" class="layer-NavMac">
+<text x="0" y="28" class="label" id="NavMac">NavMac:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key none keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -942,8 +942,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1537)" class="layer-Fun-Mac">
-<text x="0" y="28" class="label" id="Fun-Mac">Fun-Mac:</text>
+<g transform="translate(40, 1537)" class="layer-FunMac">
+<text x="0" y="28" class="label" id="FunMac">FunMac:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key none keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -1102,8 +1102,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1921)" class="layer-Media-Mac">
-<text x="0" y="28" class="label" id="Media-Mac">Media-Mac:</text>
+<g transform="translate(40, 1921)" class="layer-MedMac">
+<text x="0" y="28" class="label" id="MedMac">MedMac:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key none keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -1228,10 +1228,9 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(896, 168)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">Qwer-</tspan><tspan x="0" dy="1.2em">Win</tspan>
-</text>
-<text x="0" y="24" class="key hold">to</text>
+<a href="#QweWin">
+<text x="0" y="0" class="key tap layer-activator">QweWin</text>
+</a><text x="0" y="24" class="key hold">to</text>
 </g>
 <g transform="translate(252, 231)" class="key held keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
@@ -1260,8 +1259,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 2305)" class="layer-Qwer-Win">
-<text x="0" y="28" class="label" id="Qwer-Win">Qwer-Win:</text>
+<g transform="translate(40, 2305)" class="layer-QweWin">
+<text x="0" y="28" class="label" id="QweWin">QweWin:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1427,33 +1426,33 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 231)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">&#x27;</text>
-<a href="#Media-Win">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 67%">Media-Win</tspan></text>
+<a href="#MedWin">
+<text x="0" y="24" class="key hold layer-activator">MedWin</text>
 </a><text x="0" y="-24" class="key shifted">&quot;</text>
 </g>
 <g transform="translate(314, 255) rotate(30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
-<a href="#Fun-Win">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 86%">Fun-Win</tspan></text>
+<a href="#FunWin">
+<text x="0" y="24" class="key hold layer-activator">FunWin</text>
 </a></g>
 <g transform="translate(382, 278) rotate(30.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
-<a href="#Nav-Win">
-<text x="0" y="38" class="key hold layer-activator"><tspan style="font-size: 86%">Nav-Win</tspan></text>
+<a href="#NavWin">
+<text x="0" y="38" class="key hold layer-activator">NavWin</text>
 </a></g>
 <g transform="translate(542, 278) rotate(-30.0)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-return"/>
-<a href="#Num-Win">
-<text x="0" y="38" class="key hold layer-activator"><tspan style="font-size: 86%">Num-Win</tspan></text>
+<a href="#NumWin">
+<text x="0" y="38" class="key hold layer-activator">NumWin</text>
 </a></g>
 <g transform="translate(610, 255) rotate(-30.0)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:backspace-outline"/>
-<a href="#Sym-Win">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 86%">Sym-Win</tspan></text>
+<a href="#SymWin">
+<text x="0" y="24" class="key hold layer-activator">SymWin</text>
 </a></g>
 <g transform="translate(672, 231)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1469,8 +1468,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 2690)" class="layer-Num-Win">
-<text x="0" y="28" class="label" id="Num-Win">Num-Win:</text>
+<g transform="translate(40, 2690)" class="layer-NumWin">
+<text x="0" y="28" class="label" id="NumWin">NumWin:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key none keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -1652,8 +1651,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 3074)" class="layer-Sym-Win">
-<text x="0" y="28" class="label" id="Sym-Win">Sym-Win:</text>
+<g transform="translate(40, 3074)" class="layer-SymWin">
+<text x="0" y="28" class="label" id="SymWin">SymWin:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key none keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -1820,8 +1819,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 3458)" class="layer-Nav-Win">
-<text x="0" y="28" class="label" id="Nav-Win">Nav-Win:</text>
+<g transform="translate(40, 3458)" class="layer-NavWin">
+<text x="0" y="28" class="label" id="NavWin">NavWin:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key none keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -1982,8 +1981,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 3842)" class="layer-Fun-Win">
-<text x="0" y="28" class="label" id="Fun-Win">Fun-Win:</text>
+<g transform="translate(40, 3842)" class="layer-FunWin">
+<text x="0" y="28" class="label" id="FunWin">FunWin:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key none keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -2142,8 +2141,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 4226)" class="layer-Media-Win">
-<text x="0" y="28" class="label" id="Media-Win">Media-Win:</text>
+<g transform="translate(40, 4226)" class="layer-MedWin">
+<text x="0" y="28" class="label" id="MedWin">MedWin:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key none keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -2268,10 +2267,9 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(896, 168)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">
-<tspan x="0" dy="-1.2em">Qwer-</tspan><tspan x="0" dy="1.2em">Mac</tspan>
-</text>
-<text x="0" y="24" class="key hold">to</text>
+<a href="#QweMac">
+<text x="0" y="0" class="key tap layer-activator">QweMac</text>
+</a><text x="0" y="24" class="key hold">to</text>
 </g>
 <g transform="translate(252, 231)" class="key held keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
