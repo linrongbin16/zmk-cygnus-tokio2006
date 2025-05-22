@@ -237,7 +237,7 @@ layers:
   - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-left$$'}
   - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-right$$'}
   - {type: none}
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - OUT BLE
   - {type: none}
   - {type: none}
   - {type: none}
@@ -251,7 +251,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - OUT USB
   - {type: none}
   - {type: none}
   - {type: none}
@@ -507,7 +507,7 @@ layers:
   - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-left$$'}
   - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-right$$'}
   - {type: none}
-  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - OUT BLE
   - {type: none}
   - {type: none}
   - {type: none}
@@ -521,7 +521,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - OUT USB
   - {type: none}
   - {type: none}
   - {type: none}
