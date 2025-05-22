@@ -234,8 +234,8 @@
 
         MedMac {
             bindings = <
-&none  &none  &none  &none  &none  &none        &none        &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &none  &out OUT_TOG  &none  &none
-&none  &none  &none  &none  &none  &bootloader  &bootloader  &none       &none       &none       &none  &none
+&none  &none  &none  &none  &none  &none        &none        &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &none  &out OUT_BLE  &none  &none
+&none  &none  &none  &none  &none  &bootloader  &bootloader  &none       &none       &none       &none  &out OUT_USB
 &none  &none  &none  &none  &none  &none        &none        &none       &none       &none       &none  &to 6
                      &none  &none  &none        &none        &kp DELETE  &none
             >;
@@ -296,8 +296,8 @@
         MedWin {
             label = "MedWin";
             bindings = <
-&none  &none  &none  &none  &none  &none        &none        &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &none  &out OUT_TOG  &none  &none
-&none  &none  &none  &none  &none  &bootloader  &bootloader  &none       &none       &none       &none  &none
+&none  &none  &none  &none  &none  &none        &none        &bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &none  &out OUT_BLE  &none  &none
+&none  &none  &none  &none  &none  &bootloader  &bootloader  &none       &none       &none       &none  &out OUT_USB
 &none  &none  &none  &none  &none  &none        &none        &none       &none       &none       &none  &to 0
                      &none  &none  &none        &none        &kp DELETE  &none
             >;
