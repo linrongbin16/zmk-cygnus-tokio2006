@@ -1159,13 +1159,11 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 91)" class="key none keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(308, 105)" class="key keypos-19">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:download-circle"/>
+<g transform="translate(308, 105)" class="key none keypos-19">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(616, 105)" class="key keypos-20">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:download-circle"/>
+<g transform="translate(616, 105)" class="key none keypos-20">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g transform="translate(672, 91)" class="key none keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
@@ -1831,7 +1829,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(252, 35)" class="key keypos-4">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Gui+R</text>
+<text x="0" y="0" class="key tap">Ctl+R</text>
 </g>
 <g transform="translate(308, 49)" class="key keypos-5">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -2203,13 +2201,11 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 91)" class="key none keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(308, 105)" class="key keypos-19">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:download-circle"/>
+<g transform="translate(308, 105)" class="key none keypos-19">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(616, 105)" class="key keypos-20">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:download-circle"/>
+<g transform="translate(616, 105)" class="key none keypos-20">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g transform="translate(672, 91)" class="key none keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>

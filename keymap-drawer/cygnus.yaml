@@ -245,8 +245,8 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:download-circle$$
-  - $$mdi:download-circle$$
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
@@ -410,7 +410,7 @@ layers:
   - {type: none}
   - HOME
   - $$mdi:arrow-up$$
-  - Gui+R
+  - Ctl+R
   - END
   - Ctl+Y
   - Ctl+U
@@ -515,8 +515,8 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:download-circle$$
-  - $$mdi:download-circle$$
+  - {type: none}
+  - {type: none}
   - {type: none}
   - {type: none}
   - {type: none}
