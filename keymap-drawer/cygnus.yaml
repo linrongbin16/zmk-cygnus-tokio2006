@@ -15,7 +15,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - $$mdi:apple-keyboard-control$$
   - A
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
@@ -26,7 +26,7 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ;, h: ':', s: ':'}
-  - {type: none}
+  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-caps$$
   - Z
   - X
@@ -60,7 +60,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
@@ -71,7 +71,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - {type: none}
   - {t: '1', s: '!'}
@@ -105,7 +105,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - $
   - '%'
@@ -116,7 +116,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - {type: none}
   - '!'
@@ -150,7 +150,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - Gui+A
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
@@ -161,7 +161,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - Gui+Z
   - Gui+X
@@ -195,7 +195,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-control$$
@@ -206,7 +206,7 @@ layers:
   - F5
   - F6
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   - {type: none}
   - {type: none}
@@ -285,7 +285,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - A
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apple-keyboard-control$$'}
@@ -296,7 +296,7 @@ layers:
   - {t: K, h: '$$mdi:apple-keyboard-control$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: ':', s: ':'}
-  - {type: none}
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-caps$$
   - Z
   - X
@@ -330,7 +330,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
@@ -341,7 +341,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - {type: none}
   - {t: '1', s: '!'}
@@ -375,7 +375,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - $
   - '%'
@@ -386,7 +386,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - {type: none}
   - '!'
@@ -420,7 +420,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - Ctl+A
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
@@ -431,7 +431,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - Ctl+Z
   - Ctl+X
@@ -465,7 +465,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - {type: none}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
@@ -476,7 +476,7 @@ layers:
   - F5
   - F6
   - {type: none}
-  - {type: none}
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-command$$
   - {type: none}
   - {type: none}
