@@ -18,12 +18,12 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - A
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - F
   - G
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - J
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: '$$mdi:apple-keyboard-command$$'}
   - {t: ;, h: ':', s: ':'}
   - $$mdi:apple-keyboard-control$$
@@ -67,8 +67,8 @@ layers:
   - {t: '6', s: ^}
   - {t: '-', s: _}
   - {type: none}
+  - {type: none}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - {type: none}
   - {t: ▽, type: trans}
@@ -112,8 +112,8 @@ layers:
   - ^
   - _
   - {type: none}
+  - {type: none}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - {type: none}
   - {t: ▽, type: trans}
@@ -157,8 +157,8 @@ layers:
   - $$mdi:arrow-right$$
   - PgUp
   - {type: none}
+  - {type: none}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - {type: none}
   - {t: ▽, type: trans}
@@ -198,8 +198,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: none}
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
+  - {type: none}
   - {type: none}
   - F11
   - F4
@@ -288,12 +288,12 @@ layers:
   - {t: ▽, type: trans}
   - A
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - F
   - G
   - H
-  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - J
+  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: ':', s: ':'}
   - {t: ▽, type: trans}
@@ -337,8 +337,8 @@ layers:
   - {t: '6', s: ^}
   - {t: '-', s: _}
   - {type: none}
+  - {type: none}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {type: none}
   - {t: ▽, type: trans}
@@ -382,8 +382,8 @@ layers:
   - ^
   - _
   - {type: none}
+  - {type: none}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {type: none}
   - {t: ▽, type: trans}
@@ -427,8 +427,8 @@ layers:
   - $$mdi:arrow-right$$
   - PgUp
   - {type: none}
+  - {type: none}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
   - {type: none}
   - {t: ▽, type: trans}
@@ -468,8 +468,8 @@ layers:
   - {t: ▽, type: trans}
   - {type: none}
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
+  - {type: none}
   - {type: none}
   - F11
   - F4
