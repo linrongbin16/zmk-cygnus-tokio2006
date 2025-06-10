@@ -403,7 +403,7 @@ layers:
   - {type: none}
   - {type: held}
   - {type: none}
-  - {type: none}
+  - $$mdi:backspace-reverse$$
   - {type: none}
   Fun-Win:
   - {type: none}
