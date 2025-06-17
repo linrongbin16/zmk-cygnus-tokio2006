@@ -47,11 +47,11 @@ layers:
   - {t: '''', h: '"', s: '"'}
   Nav-Mac:
   - {type: none}
-  - {type: none}
-  - HOME
+  - Gui+Q
+  - Gui+W
   - $$mdi:arrow-up$$
   - Gui+R
-  - END
+  - Gui+T
   - Gui+Y
   - Gui+U
   - {type: none}
@@ -65,8 +65,8 @@ layers:
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
-  - PgUp
-  - {type: none}
+  - Gui+F
+  - Gui+H
   - {type: none}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
@@ -77,9 +77,9 @@ layers:
   - Gui+X
   - Gui+C
   - Gui+V
-  - PgDn
-  - {type: none}
-  - {type: none}
+  - Gui+B
+  - Gui+N
+  - Gui+M
   - {type: none}
   - {type: none}
   - {type: none}
@@ -87,8 +87,8 @@ layers:
   - {type: none}
   - {type: none}
   - {type: held}
-  - {type: none}
-  - $$mdi:backspace-reverse$$
+  - HOME
+  - END
   - {type: none}
   Fun-Mac:
   - {type: none}
@@ -182,11 +182,11 @@ layers:
   - {t: '''', h: '"', s: '"'}
   Nav-Win:
   - {type: none}
-  - {type: none}
-  - HOME
+  - Ctl+Q
+  - Ctl+W
   - $$mdi:arrow-up$$
   - Ctl+R
-  - END
+  - Ctl+T
   - Ctl+Y
   - Ctl+U
   - {type: none}
@@ -200,8 +200,8 @@ layers:
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-right$$
-  - PgUp
-  - {type: none}
+  - Ctl+F
+  - Ctl+H
   - {type: none}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
@@ -212,9 +212,9 @@ layers:
   - Ctl+X
   - Ctl+C
   - Ctl+V
-  - PgDn
-  - {type: none}
-  - {type: none}
+  - Ctl+B
+  - Ctl+N
+  - Ctl+M
   - {type: none}
   - {type: none}
   - {type: none}
@@ -222,8 +222,8 @@ layers:
   - {type: none}
   - {type: none}
   - {type: held}
-  - {type: none}
-  - $$mdi:backspace-reverse$$
+  - HOME
+  - END
   - {type: none}
   Fun-Win:
   - {type: none}
