@@ -87,9 +87,9 @@ layers:
   - {type: none}
   - {type: held}
   - {type: none}
+  - {type: none}
   - HOME
   - END
-  - {type: none}
   Fun-Mac:
   - {type: none}
   - {type: none}
@@ -133,8 +133,8 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:backspace-reverse$$
   - {type: none}
+  - $$mdi:backspace-reverse$$
   Qwer-Win:
   - $$mdi:keyboard-tab$$
   - Q
@@ -222,9 +222,9 @@ layers:
   - {type: none}
   - {type: held}
   - {type: none}
+  - {type: none}
   - HOME
   - END
-  - {type: none}
   Fun-Win:
   - {type: none}
   - {type: none}
@@ -268,8 +268,8 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:backspace-reverse$$
   - {type: none}
+  - $$mdi:backspace-reverse$$
   Num:
   - {type: none}
   - {type: none}
