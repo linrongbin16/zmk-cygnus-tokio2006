@@ -374,45 +374,45 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(252, 231)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">\</text>
-<text x="0" y="24" class="key hold">|</text>
-<text x="0" y="-24" class="key shifted">|</text>
-</g>
-<g transform="translate(314, 255) rotate(30.0)" class="key keypos-39">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
 <a href="#Fun-Mac">
 <text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 86%">Fun-Mac</tspan></text>
 </a></g>
-<g transform="translate(382, 278) rotate(30.0)" class="key keypos-40">
-<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
+<g transform="translate(314, 255) rotate(30.0)" class="key keypos-39">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">ESC</text>
 <a href="#Nav-Mac">
-<text x="0" y="38" class="key hold layer-activator"><tspan style="font-size: 86%">Nav-Mac</tspan></text>
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 86%">Nav-Mac</tspan></text>
 </a></g>
+<g transform="translate(382, 278) rotate(30.0)" class="key keypos-40">
+<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
+<text x="0" y="0" class="key tap">\</text>
+<text x="0" y="38" class="key hold">|</text>
+<text x="0" y="-38" class="key shifted">|</text>
+</g>
 <g transform="translate(542, 278) rotate(-30.0)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
+<text x="0" y="0" class="key tap">&#x27;</text>
+<text x="0" y="38" class="key hold">&quot;</text>
+<text x="0" y="-38" class="key shifted">&quot;</text>
+</g>
+<g transform="translate(610, 255) rotate(-30.0)" class="key keypos-42">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-return"/>
 <a href="#Num">
-<text x="0" y="38" class="key hold layer-activator">Num</text>
+<text x="0" y="24" class="key hold layer-activator">Num</text>
 </a></g>
-<g transform="translate(610, 255) rotate(-30.0)" class="key keypos-42">
+<g transform="translate(672, 231)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:backspace-outline"/>
 <a href="#Sym">
 <text x="0" y="24" class="key hold layer-activator">Sym</text>
 </a></g>
-<g transform="translate(672, 231)" class="key keypos-43">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&#x27;</text>
-<text x="0" y="24" class="key hold">&quot;</text>
-<text x="0" y="-24" class="key shifted">&quot;</text>
-</g>
 <g class="combo combopos-0">
-<path d="M462,231 l-191,0" class="combo"/>
-<path d="M462,231 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="218" width="28" height="26" class="combo"/>
-<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="453" y="222" height="18" width="18.0" class="combo tap glyph mdi:download-circle"/>
+<path d="M462,278 l-61,0" class="combo"/>
+<path d="M462,278 l61,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="265" width="28" height="26" class="combo"/>
+<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="453" y="269" height="18" width="18.0" class="combo tap glyph mdi:download-circle"/>
 </g>
 </g>
 </g>
@@ -561,11 +561,11 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 231)" class="key none keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(314, 255) rotate(30.0)" class="key none keypos-39">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(314, 255) rotate(30.0)" class="key held keypos-39">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
-<g transform="translate(382, 278) rotate(30.0)" class="key held keypos-40">
-<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key held"/>
+<g transform="translate(382, 278) rotate(30.0)" class="key none keypos-40">
+<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key none"/>
 </g>
 <g transform="translate(542, 278) rotate(-30.0)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
@@ -579,10 +579,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g class="combo combopos-0">
-<path d="M462,231 l-191,0" class="combo"/>
-<path d="M462,231 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="218" width="28" height="26" class="combo"/>
-<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="453" y="222" height="18" width="18.0" class="combo tap glyph mdi:download-circle"/>
+<path d="M462,278 l-61,0" class="combo"/>
+<path d="M462,278 l61,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="265" width="28" height="26" class="combo"/>
+<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="453" y="269" height="18" width="18.0" class="combo tap glyph mdi:download-circle"/>
 </g>
 </g>
 </g>
@@ -735,11 +735,11 @@ rect.held, rect.combo.held {
 </text>
 <text x="0" y="24" class="key hold">to</text>
 </g>
-<g transform="translate(252, 231)" class="key none keypos-38">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
-</g>
-<g transform="translate(314, 255) rotate(30.0)" class="key held keypos-39">
+<g transform="translate(252, 231)" class="key held keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+</g>
+<g transform="translate(314, 255) rotate(30.0)" class="key none keypos-39">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g transform="translate(382, 278) rotate(30.0)" class="key none keypos-40">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key none"/>
@@ -755,10 +755,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g class="combo combopos-0">
-<path d="M462,231 l-191,0" class="combo"/>
-<path d="M462,231 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="218" width="28" height="26" class="combo"/>
-<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="453" y="222" height="18" width="18.0" class="combo tap glyph mdi:download-circle"/>
+<path d="M462,278 l-61,0" class="combo"/>
+<path d="M462,278 l61,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="265" width="28" height="26" class="combo"/>
+<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="453" y="269" height="18" width="18.0" class="combo tap glyph mdi:download-circle"/>
 </g>
 </g>
 </g>
@@ -934,39 +934,39 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(314, 255) rotate(30.0)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
-<a href="#Fun-Win">
-<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 86%">Fun-Win</tspan></text>
+<text x="0" y="0" class="key tap">ESC</text>
+<a href="#Nav-Win">
+<text x="0" y="24" class="key hold layer-activator"><tspan style="font-size: 86%">Nav-Win</tspan></text>
 </a></g>
 <g transform="translate(382, 278) rotate(30.0)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<text x="0" y="0" class="key tap">ESC</text>
-<a href="#Nav-Win">
-<text x="0" y="38" class="key hold layer-activator"><tspan style="font-size: 86%">Nav-Win</tspan></text>
-</a></g>
+<text x="0" y="0" class="key tap">\</text>
+<text x="0" y="38" class="key hold">|</text>
+<text x="0" y="-38" class="key shifted">|</text>
+</g>
 <g transform="translate(542, 278) rotate(-30.0)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
+<text x="0" y="0" class="key tap">&#x27;</text>
+<text x="0" y="38" class="key hold">&quot;</text>
+<text x="0" y="-38" class="key shifted">&quot;</text>
+</g>
+<g transform="translate(610, 255) rotate(-30.0)" class="key keypos-42">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:keyboard-return"/>
 <a href="#Num">
-<text x="0" y="38" class="key hold layer-activator">Num</text>
+<text x="0" y="24" class="key hold layer-activator">Num</text>
 </a></g>
-<g transform="translate(610, 255) rotate(-30.0)" class="key keypos-42">
+<g transform="translate(672, 231)" class="key keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="-9" y="-9" height="18" width="18.0" class="key tap glyph mdi:backspace-outline"/>
 <a href="#Sym">
 <text x="0" y="24" class="key hold layer-activator">Sym</text>
 </a></g>
-<g transform="translate(672, 231)" class="key keypos-43">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">&#x27;</text>
-<text x="0" y="24" class="key hold">&quot;</text>
-<text x="0" y="-24" class="key shifted">&quot;</text>
-</g>
 <g class="combo combopos-0">
-<path d="M462,231 l-191,0" class="combo"/>
-<path d="M462,231 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="218" width="28" height="26" class="combo"/>
-<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="453" y="222" height="18" width="18.0" class="combo tap glyph mdi:download-circle"/>
+<path d="M462,278 l-61,0" class="combo"/>
+<path d="M462,278 l61,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="265" width="28" height="26" class="combo"/>
+<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="453" y="269" height="18" width="18.0" class="combo tap glyph mdi:download-circle"/>
 </g>
 </g>
 </g>
@@ -1115,11 +1115,11 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 231)" class="key none keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(314, 255) rotate(30.0)" class="key none keypos-39">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(314, 255) rotate(30.0)" class="key held keypos-39">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
-<g transform="translate(382, 278) rotate(30.0)" class="key held keypos-40">
-<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key held"/>
+<g transform="translate(382, 278) rotate(30.0)" class="key none keypos-40">
+<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key none"/>
 </g>
 <g transform="translate(542, 278) rotate(-30.0)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
@@ -1133,10 +1133,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g class="combo combopos-0">
-<path d="M462,231 l-191,0" class="combo"/>
-<path d="M462,231 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="218" width="28" height="26" class="combo"/>
-<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="453" y="222" height="18" width="18.0" class="combo tap glyph mdi:download-circle"/>
+<path d="M462,278 l-61,0" class="combo"/>
+<path d="M462,278 l61,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="265" width="28" height="26" class="combo"/>
+<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="453" y="269" height="18" width="18.0" class="combo tap glyph mdi:download-circle"/>
 </g>
 </g>
 </g>
@@ -1292,8 +1292,8 @@ rect.held, rect.combo.held {
 <g transform="translate(252, 231)" class="key none keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
-<g transform="translate(314, 255) rotate(30.0)" class="key held keypos-39">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+<g transform="translate(314, 255) rotate(30.0)" class="key none keypos-39">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g transform="translate(382, 278) rotate(30.0)" class="key none keypos-40">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key none"/>
@@ -1309,10 +1309,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g class="combo combopos-0">
-<path d="M462,231 l-191,0" class="combo"/>
-<path d="M462,231 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="218" width="28" height="26" class="combo"/>
-<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="453" y="222" height="18" width="18.0" class="combo tap glyph mdi:download-circle"/>
+<path d="M462,278 l-61,0" class="combo"/>
+<path d="M462,278 l61,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="265" width="28" height="26" class="combo"/>
+<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="453" y="269" height="18" width="18.0" class="combo tap glyph mdi:download-circle"/>
 </g>
 </g>
 </g>
@@ -1480,20 +1480,20 @@ rect.held, rect.combo.held {
 <text x="0" y="0" class="key tap">`</text>
 <text x="0" y="-38" class="key shifted">~</text>
 </g>
-<g transform="translate(542, 278) rotate(-30.0)" class="key held keypos-41">
-<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key held"/>
+<g transform="translate(542, 278) rotate(-30.0)" class="key none keypos-41">
+<rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key none"/>
 </g>
-<g transform="translate(610, 255) rotate(-30.0)" class="key none keypos-42">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
+<g transform="translate(610, 255) rotate(-30.0)" class="key held keypos-42">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(672, 231)" class="key none keypos-43">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
 <g class="combo combopos-0">
-<path d="M462,231 l-191,0" class="combo"/>
-<path d="M462,231 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="218" width="28" height="26" class="combo"/>
-<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="453" y="222" height="18" width="18.0" class="combo tap glyph mdi:download-circle"/>
+<path d="M462,278 l-61,0" class="combo"/>
+<path d="M462,278 l61,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="265" width="28" height="26" class="combo"/>
+<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="453" y="269" height="18" width="18.0" class="combo tap glyph mdi:download-circle"/>
 </g>
 </g>
 </g>
@@ -1649,17 +1649,17 @@ rect.held, rect.combo.held {
 <g transform="translate(542, 278) rotate(-30.0)" class="key none keypos-41">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key none"/>
 </g>
-<g transform="translate(610, 255) rotate(-30.0)" class="key held keypos-42">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-</g>
-<g transform="translate(672, 231)" class="key none keypos-43">
+<g transform="translate(610, 255) rotate(-30.0)" class="key none keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key none"/>
 </g>
+<g transform="translate(672, 231)" class="key held keypos-43">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
+</g>
 <g class="combo combopos-0">
-<path d="M462,231 l-191,0" class="combo"/>
-<path d="M462,231 l191,0" class="combo"/>
-<rect rx="6" ry="6" x="448" y="218" width="28" height="26" class="combo"/>
-<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="453" y="222" height="18" width="18.0" class="combo tap glyph mdi:download-circle"/>
+<path d="M462,278 l-61,0" class="combo"/>
+<path d="M462,278 l61,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="265" width="28" height="26" class="combo"/>
+<use href="#mdi:download-circle" xlink:href="#mdi:download-circle" x="453" y="269" height="18" width="18.0" class="combo tap glyph mdi:download-circle"/>
 </g>
 </g>
 </g>
