@@ -43,8 +43,8 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: Nav-Mac}
   - {t: \, h: '|', s: '|'}
   - {t: '''', h: '"', s: '"'}
-  - {t: '$$mdi:backspace-outline$$', h: Num}
-  - {t: '$$mdi:keyboard-return$$', h: Sym}
+  - {t: '$$mdi:keyboard-return$$', h: Num}
+  - {t: '$$mdi:backspace-outline$$', h: Sym}
   Nav-Mac:
   - {type: none}
   - Gui+Q
@@ -178,8 +178,8 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: Nav-Win}
   - {t: \, h: '|', s: '|'}
   - {t: '''', h: '"', s: '"'}
-  - {t: '$$mdi:backspace-outline$$', h: Num}
-  - {t: '$$mdi:keyboard-return$$', h: Sym}
+  - {t: '$$mdi:keyboard-return$$', h: Num}
+  - {t: '$$mdi:backspace-outline$$', h: Sym}
   Nav-Win:
   - {type: none}
   - Ctl+Q
