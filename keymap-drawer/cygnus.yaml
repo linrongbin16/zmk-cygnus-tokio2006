@@ -89,7 +89,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - $$mdi:backspace-reverse$$
   Fun-Mac:
   - {type: none}
   - {t: '$$mdi:bluetooth-connect$$', h: '1'}
@@ -133,8 +133,8 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:backspace-reverse$$
   - {type: none}
+  - $$mdi:backspace-reverse$$
   Qwer-Win:
   - $$mdi:keyboard-tab$$
   - Q
@@ -224,7 +224,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - $$mdi:backspace-reverse$$
   Fun-Win:
   - {type: none}
   - {t: '$$mdi:bluetooth-connect$$', h: '1'}
@@ -268,8 +268,8 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - $$mdi:backspace-reverse$$
   - {type: none}
+  - $$mdi:backspace-reverse$$
   Num:
   - {type: none}
   - {type: none}
