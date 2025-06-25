@@ -54,7 +54,7 @@ layers:
   - Gui+T
   - Gui+Y
   - Gui+U
-  - {type: none}
+  - PgUp
   - {type: none}
   - {type: none}
   - {type: none}
@@ -67,9 +67,9 @@ layers:
   - $$mdi:arrow-right$$
   - Gui+F
   - Gui+H
-  - {type: none}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
+  - HOME
+  - PgDn
+  - END
   - {type: none}
   - {t: ▽, type: trans}
   - {type: none}
@@ -88,15 +88,15 @@ layers:
   - {type: held}
   - {type: none}
   - {type: none}
-  - HOME
-  - END
+  - {type: none}
+  - {type: none}
   Fun-Mac:
   - {type: none}
-  - {type: none}
-  - $$mdi:bluetooth-off$$
-  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-left$$'}
-  - {t: '$$mdi:bluetooth-connect$$', h: '$$mdi:arrow-right$$'}
-  - OUT BLE
+  - {t: '$$mdi:bluetooth-connect$$', h: '1'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '2'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '3'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '4'}
+  - {t: '$$mdi:bluetooth-connect$$', h: '5'}
   - F10
   - F7
   - F8
@@ -110,7 +110,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-shift$$
   - {type: none}
-  - OUT USB
+  - $$mdi:bluetooth-off$$
   - F11
   - F4
   - F5
@@ -119,10 +119,10 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   - {type: none}
+  - OUT BLE
+  - OUT USB
   - {type: none}
-  - {type: none}
-  - {type: none}
-  - {type: none}
+  - BT CLR ALL
   - F12
   - F1
   - F2
@@ -189,7 +189,7 @@ layers:
   - Ctl+T
   - Ctl+Y
   - Ctl+U
-  - {type: none}
+  - PgUp
   - {type: none}
   - {type: none}
   - {type: none}
@@ -202,9 +202,9 @@ layers:
   - $$mdi:arrow-right$$
   - Ctl+F
   - Ctl+H
-  - {type: none}
-  - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-option$$
+  - HOME
+  - PgDn
+  - END
   - {type: none}
   - {t: ▽, type: trans}
   - {type: none}
@@ -223,8 +223,8 @@ layers:
   - {type: held}
   - {type: none}
   - {type: none}
-  - HOME
-  - END
+  - {type: none}
+  - {type: none}
   Fun-Win:
   - {type: none}
   - {type: none}
